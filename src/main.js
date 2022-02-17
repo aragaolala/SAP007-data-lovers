@@ -8,13 +8,13 @@ function printarCards(dados) {
       <div class="card-info">
         <img src="${item.image}">
         <div class="info-lista">
-            <p><strong>Nome: </strong>${item.name}</p>
-            <p><strong>Gênero: </strong>${item.gender}</p>      
-            <p><strong>Status: </strong>${item.status}</p>
-            <p><strong>Espécie: </strong>${item.species}</p>
-            <p><strong>Origem: </strong>${item.origin.name}</p>
-            <p><strong>Localização: </strong>${item.location.name}</p>
-            <p><strong>Aparece em: </strong>${item.episode.length} episódios</p>
+            <p><strong>Nome: </strong>${item.name}</p><br>
+            <p><strong>Gênero: </strong>${item.gender}</p><br>      
+            <p><strong>Status: </strong>${item.status}</p><br>
+            <p><strong>Espécie: </strong>${item.species}</p><br>
+            <p><strong>Origem: </strong>${item.origin.name}</p><br>
+            <p><strong>Localização: </strong>${item.location.name}</p><br>
+            <p><strong>Aparece em: </strong>${item.episode.length} episódios</p><br>
         </div> 
      </div>
     

@@ -19,11 +19,27 @@
     "eslint": "^8.3.0",
     "gh-pages": "^3.1.0",
     "htmlhint": "^1.0.0",
-    "jest": "^27.0.1",
     "opener": "^1.5.1",
     "serve": "^13.0.2"
   },
   "engines": {
     "node": ">=14.x"
+  },
+  "description": "- [1. Preâmbulo](#1-preâmbulo)\r - [2. Resumo do projeto](#2-resumo-do-projeto)\r - [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)\r - [4. Considerações gerais](#4-considerações-gerais)\r - [5. Critérios mínimos de aceitação do\r   projeto](#5-critérios-mínimos-de-aceitação-do-projeto)\r - [6. Hacker edition](#6-hacker-edition)\r - [7. Considerações técnicas](#7-considerações-técnicas)\r - [8. Pistas, dicas e leituras\r   complementares](#8-pistas-dicas-e-leituras-complementares)\r - [9. Checklist](#9-checklist)",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lalaonde/SAP007-data-lovers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/lalaonde/SAP007-data-lovers/issues"
+  },
+  "homepage": "https://github.com/lalaonde/SAP007-data-lovers#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
   }
 }
