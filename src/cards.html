@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cards.css" />
+    <title>cards</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        <img class="img-title" src="./img/name.png" alt="Rick and Morty" />
+      </h1>
+
+      <div class="menu-container">
+        <form class="menu-filter">
+          <select name="filter" id="status-filter">
+            <option class="status" value="" selected disabled; >status</option>
+            <option value="Alive">vivo</option>
+            <option value="Dead">morto</option>
+            <option value="unknown">desconhecido</option>
+          </select>
+          <select name="filter" id="genero-filter">
+            <option class="genero" value="" selected disabled;>gênero</option>
+            <option value="Male">masculino</option>
+            <option value="Female">feminino</option>
+            <option value="unknown">desconhecido</option>
+            <option value="Genderless">sem gênero</option>
+          </select>
+          <button id="btn" type="submit">limpar</button>
+
+          <input class="pesquisar" type="search" placeholder="🔎︎"/> 
+
+          <a href="index.html">
+            <img class="img-menu" src="img/Rick-and-MortyPNG.png" alt="Imagem do Ricky and Morty">
+          </a>
+
+        </form>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="cards-container" id="container-dos-cards"></div>
+        <!--Os cards serão printados a partir da função no main.js / 
+          invocamos o .map e passamos uma função dentro do seu argumento -->
+      </section>
+    </main>
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html>

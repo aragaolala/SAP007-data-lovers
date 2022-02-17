@@ -45,3 +45,4 @@ printarCards(dados.results);
 // " => "isso sig funcao executada para cada item -> "arrow function" ->
 // depois dela vem a funcao e/ou  scondicoes 
 //o que é API? (consumo de api)
+
