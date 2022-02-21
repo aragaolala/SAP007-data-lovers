@@ -27,7 +27,7 @@ const Personagens = [
    }
 ];
 
-// Teste do Filtro Genero
+// Teste do Filtro Genero Male
 
 describe('filtroGenero', () => {
   it('Deverá ser uma função', () => {
@@ -53,3 +53,5 @@ describe('calcularPorcentagem', () => {
     expect (expected).toEqual(50) //A função .toEqual(valor) testa recursivamente cada valor do objeto ou array.
   });
 });
+
+
