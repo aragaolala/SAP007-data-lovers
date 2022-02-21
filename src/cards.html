@@ -5,50 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="cards.css" />
-    <title>cards</title>
+    <title>Filtros</title>
   </head>
-
   <body>
     <header>
-      <h1>
-        <img class="img-title" src="./img/name.png" alt="Rick and Morty" />
-      </h1>
-
-      <div class="menu-container">
-        <form class="menu-filter">
-          <select name="filter" id="status-filter">
-            <option class="status" value="" selected disabled; >status</option>
-            <option value="Alive">vivo</option>
-            <option value="Dead">morto</option>
-            <option value="unknown">desconhecido</option>
-          </select>
-          <select name="filter" id="genero-filter">
-            <option class="genero" value="" selected disabled;>gênero</option>
-            <option value="Male">masculino</option>
-            <option value="Female">feminino</option>
-            <option value="unknown">desconhecido</option>
-            <option value="Genderless">sem gênero</option>
-          </select>
-          <button id="btn" type="submit">limpar</button>
-
-          <input class="pesquisar" type="search" placeholder="🔎︎"/> 
-
-          <a href="index.html">
-            <img class="img-menu" src="img/Rick-and-MortyPNG.png" alt="Imagem do Ricky and Morty">
-          </a>
-
-        </form>
+      <div class="logo">
+        <img class="imagem-header" src="img/rickandmorty.png" alt="" />
       </div>
     </header>
+    <nav>
+      <div class="nav-filtros">
+        <select
+          name=""
+          title="filtros-genero"
+          class="filtros"
+          id="filtro-genero"
+        >
+          <option value="" selected hidden>Gênero</option>
+          <option value="male">Masculino</option>
+          <option value="female">Feminino</option>
+          <option value="unknown">Desconhecido</option>
+        </select>
+        <select title="filtros-stat" class="filtros" id="filtro-status">
+          <option value="" selected hidden>Status</option>
+          <option value="alive">Vivo</option>
+          <option value="dead">Morto</option>
+          <option value="unknown">Desconhecido</option>
+        </select>
+        <select title="filtros-espec" class="filtros" id="filtro-especies">
+          <option value="" selected hidden>Espécie</option>
+          <option value="alien">Alien</option>
+          <option value="animal">Animal</option>
+          <option value="cronenberg">Cronenberg</option>
+          <option value="disease">Doença</option>
+          <option value="human">Humano</option>
+          <option value="humanoid">Humanóide</option>
+          <option value="mytholog">Mytholog</option>
+          <option value="parasite">Parasita</option>
+          <option value="poopybutthole">Poopybutthole</option>
+          <option value="robot">Robô</option>
+          <option value="vampire">Vampiro</option>
+          <option value="unknown">Desconhecido</option>
+        </select>
+        <select title="filtros-alfab" class="filtros" id="filtro-ordem-alfa">
+          <option value="" selected hidden>Ordem alfabética</option>
+          <option value="a-z">A - Z</option>
+          <option value="z-a">Z - A</option>
+        </select>
+      </div>
+      <div class="buscar-e-limpar">
+        
+        <button id="btn" type="submit">limpar</button>
 
+        <input class="pesquisar" type="search" placeholder="🔎︎" />
+        
+      </div>
+      <p class="calculo" id="porcentagem-filtro"></p>
+        <!--calculo de porcentagem-->
+    </nav>
     <main>
       <section>
         <div class="cards-container" id="container-dos-cards"></div>
         <!--Os cards serão printados a partir da função no main.js / 
-          invocamos o .map e passamos uma função dentro do seu argumento -->
+        invocamos o .map e passamos uma função dentro do seu argumento -->
       </section>
     </main>
-
     <script src="main.js" type="module"></script>
   </body>
 </html>

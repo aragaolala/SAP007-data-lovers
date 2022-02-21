@@ -1,48 +1,184 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: none;
   font-family: "Lato", sans-serif;
 }
-
-/* Cor da pag */
 body {
-  background: #f2f2f2;
+  background: url(img/espaco.jpg);
+  background-size: contain;
+  background-position: top;
+}
+img {
+  width: 80%;
 }
 
-/* imagem Rick and Morty */
-.img-title {
-  width: 50%;
+.logo {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  width: 70%;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
-/* Campo onde fica os botão */
-.menu-container {
-  border: 10px solid #22a2bd;
-  margin: 20px;
-  border-radius: 20px;
-  height: 100px;
+.nav {
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+  margin-top: 10%;
+  height: 150px;
+}
+
+.filtros {
+  border-radius: 5px;
+  font-size: 5%;
+  color: #06BEE1;
+  border-radius: 2px;
+  font-size: 1.5rem;
+  height: 3rem;
+  margin: auto;
+  background-color: #512258;
+  border-style: none;
+}
+
+.cards-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 200px;
+  justify-items: flex-end;
+  grid-gap: 1rem;
+}
+
+.card-info {
+  width: 280px;
+  height: 360px;
+  padding: 2rem 1rem;
   background: #fff;
+  position: relative;
+  display: flex;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+.card-info:hover {
+  transform: translateY(20px);
+}
+
+.card-info:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 2;
+  transition: 0.5s all;
+  opacity: 0;
+  border-radius: 10px;
+}
+
+.card-info:hover:before {
+  opacity: 1;
+}
+
+.card-info img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+}
+
+.card-info .info-lista {
+  position: relative;
+  z-index: 3;
+  color: rgb(238, 238, 238);
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s all 0s;
+}
+
+.card-info:hover .info-lista {
+  opacity: 1;
+  transform: translateY(0px);
 }
 
 /* Botões */
-select,
+
 button {
-  border-radius: 20px;
-  border: 5px solid #87f583;
-  height: 40px;
-  width: 10%;
-  text-align: center;
-  background: transparent;
+  /* From cssbuttons.io by @nikk7007 */
+
+  --color: #72ef4b;
+  padding: 0.8em 1.7em;
+  background-color: transparent;
+  border-radius: 0.3em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 400;
+  font-size: 17px;
+  border: 1px solid;
+  font-family: inherit;
+  text-transform: uppercase;
+  color: var(--color);
+  z-index: 1;
+  position: relative;
+}
+
+button::before,
+button::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: var(--color);
+  transition: 1s ease;
+}
+
+button::before {
+  top: -1em;
+  left: -1em;
+}
+
+button::after {
+  left: calc(100% + 1em);
+  top: calc(100% + 1em);
+}
+
+button:hover::before,
+.button:hover::after {
+  height: 410px;
+  width: 410px;
+}
+
+button:hover {
+  color: rgb(10, 25, 30);
+}
+
+button:active {
+  filter: brightness(0.8);
 }
 
 /* campo pesquisar */
-input {
-  position: absolute;
+.pesquisar {
   right: 3%;
   font-size: 16px;
   background: transparent;
@@ -54,93 +190,23 @@ input {
   text-align: right;
 }
 
-/* class do form */
-.menu-filter {
-  margin: 20px;
-}
-
-/* imagem do menu */
-.img-menu {
-  width: 200px;
+.nav-filtros {
+  border: 6px solid #06bee1;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
+  height: 100px;
 }
 
-/* Posicionamento dos cards */
-.cards-container {
+.calculo {
+  background: rgb(154, 201, 142);
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.buscar-e-limpar {
   display: flex;
-  width: 100%;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  flex-direction: row;
-  margin-top: 300px;
-  justify-items: flex-end;
-  grid-gap: 1rem;
-}
-
-/* Estilo dos cards */
-.card-info {
-  width: 250px;
-  height: 330px;
-  padding: 2rem 1rem;
-  background: #fff;
-  position: relative;
-  display: flex;
-  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
-  transition: 0.5s ease-in-out;
-  border-radius: 10px;
-  margin: 4px;
-}
-
-/* animação que faz o card se mover para baixo */
-.card-info:hover {
-  transform: translateY(20px);
-}
-
-/* estilo da animação com as info */
-.card-info:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to bottom, rgba(116, 116, 116, 0.596), #1d1d1d9a);
-  z-index: 2;
-  transition: 0.5s all;
-  opacity: 0;
-  border-radius: 10px;
-}
-
-.card-info:hover:before {
-  opacity: 1;
-}
-
-/* tamanho das imgs dos cards */
-.card-info img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 10px;
-}
-
-/* Estilo das letras que contém as informações */
-.card-info .info-lista {
-  position: relative;
-  z-index: 3;
-  color: #ffff;
-  opacity: 0;
-  transform: translateY(30px);
-  transition: 0.5s all 0s;
-}
-
-/* Animação que mostrar as informações nos cards */
-.card-info:hover .info-lista {
-  opacity: 1;
-  transform: translateY(0px);
+  justify-content: center;
+  margin-top: 50px;
 }
