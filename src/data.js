@@ -10,7 +10,7 @@ export const anotherExample = () => {
 
 */
 export const  filtroGenero = (dados, condition) => {
-  const resultadoGenero = dados.filter((personagem) => personagem.gender.toLowerCase() === condition.toLowerCase());
+  const resultadoGenero = dados.filter((personagem) => personagem.gender.toLowerCase() === condition);
   return resultadoGenero;
 };
 

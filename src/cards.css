@@ -35,10 +35,8 @@ img {
 }
 
 .filtros {
-  border-radius: 5px;
-  font-size: 5%;
-  color: #06BEE1;
-  border-radius: 2px;
+  border-radius: 10px;
+  color: #06bee1;
   font-size: 1.5rem;
   height: 3rem;
   margin: auto;
@@ -192,6 +190,7 @@ button:active {
 
 .nav-filtros {
   border: 6px solid #06bee1;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   height: 100px;
