@@ -17,7 +17,10 @@
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
     "babel-jest": "^27.0.1",
     "eslint": "^8.3.0",
+<<<<<<< HEAD
     "htmlhint": "^1.1.2",
+=======
+>>>>>>> a5c965cb69e2582db9ecbce6ce75d5d79bdcb26b
     "opener": "^1.5.1",
     "serve": "^13.0.2"
   },
@@ -40,6 +43,7 @@
   "homepage": "https://github.com/lalaonde/SAP007-data-lovers#readme",
   "devDependencies": {
     "gh-pages": "^3.2.3",
+    "htmlhint": "^1.1.2",
     "jest": "^27.5.1"
   }
 }

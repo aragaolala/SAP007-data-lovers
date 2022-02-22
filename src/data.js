@@ -9,10 +9,12 @@ export const anotherExample = () => {
 };
 
 */
+
 export const filtroGenero = (dados, condition) => {
   const resultadoGenero = dados.filter(
     (character) => character.gender.toLowerCase() === condition.toLowerCase()
   );
+
   return resultadoGenero;
 };
 
