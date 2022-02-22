@@ -1,4 +1,9 @@
-import { filtroGenero, calcularPorcentagem } from "./data.js";
+import {
+  filtroGenero,
+  statusFilter,
+  statusSpecies,
+  calcularPorcentagem,
+} from "./data.js";
 
 import dados from "./data/rickandmorty/rickandmorty.js";
 
@@ -24,9 +29,13 @@ function printarCards(dados) {
     )
     .join("");
 }
+``;
 printarCards(dados.results);
 
+///// Filtros
 const selecaoGenero = document.getElementById("gender-filter");
+const statusSelect = document.getElementById("status-filter");
+const speciesSelect = document.getElementById("species-filter");
 const texto = document.getElementById("porcentagem-filtro");
 
 function mostrarPorcentagem(dados) {
@@ -43,6 +52,28 @@ function imprimirFiltroGenero(e) {
   return printarCards(resultadoGenero);
 }
 selecaoGenero.addEventListener("change", imprimirFiltroGenero);
+
+function printStatusFilter(e) {
+  const statusResult = statusFilter(dados.results, e.target.value);
+  const porcentagemText = `${calcularPorcentagem(
+    dados.results.length,
+    statusResult.length
+  )}% dos personagens`;
+  mostrarPorcentagem(porcentagemText);
+  return printarCards(statusResult);
+}
+statusSelect.addEventListener("change", printStatusFilter);
+
+function printSpeciesFilter(e) {
+  const speciesResult = statusSpecies(dados.results, e.target.value);
+  const porcentagemText = `${calcularPorcentagem(
+    dados.results.length,
+    speciesResult.length
+  )}% dos personagens`;
+  mostrarPorcentagem(porcentagemText);
+  return printarCards(speciesResult);
+}
+speciesSelect.addEventListener("change", printSpeciesFilter);
 
 /* esse arquivo é o DOM - está em interação com o htlm
 

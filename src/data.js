@@ -28,3 +28,16 @@ export const calcularPorcentagem = (total, portion) => {
   return porcentagem;
 };
 
+export const statusFilter = (dados, condition) => {
+  const statusResult = dados.filter(
+    (character) => character.status.toLowerCase() === condition.toLowerCase()
+  );
+  return statusResult;
+};
+
+export const statusSpecies = (dados, condition) => {
+  const speciesResult = dados.filter(
+    (character) => character.species.toLowerCase() === condition.toLowerCase()
+  );
+  return speciesResult;
+};
