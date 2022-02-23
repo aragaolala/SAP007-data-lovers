@@ -33,7 +33,7 @@ function printarCards(dados) {
 ``;
 printarCards(dados.results);
 
-///// BUSCANDO OS SELETORES
+///// PEGANDO OS SELETORES
 const selecaoGenero = document.getElementById("gender-filter");
 const statusSelect = document.getElementById("status-filter");
 const speciesSelect = document.getElementById("species-filter");
