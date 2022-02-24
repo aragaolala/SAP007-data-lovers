@@ -65,13 +65,13 @@ describe('statusFilter', () => {
 });
 
 it('Deverá filtrar pelo status Alive', () => {
-  const statusAlive = "Alive"
+    const statusAlive = "Alive"
     const expected = statusFilter(Personagens, statusAlive)
     expect (expected[0].status).toEqual(statusAlive)
   });
 
 it('Deverá filtrar pelo status Dead', () => {
-  const statusDead = "Dead"
+    const statusDead = "Dead"
     const expected = statusFilter(Personagens, statusDead)
     expect (expected[0].status).toEqual(statusDead)
   });
