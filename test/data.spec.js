@@ -1,34 +1,36 @@
-import { filtroGenero, statusFilter, statusSpecies, calcularPorcentagem} from '../src/data.js';
+import { filtroGenero,statusFilter,speciesFilter,orderAlfaFilter,calcularPorcentagem,} from '../src/data.js';
+
 
 const Personagens = [
   {
-     "name": "Bearded Lady",
-     "status": "Dead",
-     "species": "Alien",
-     "gender": "Female",
-   },
-   {
-     "name": "Boobloosian",
-     "status": "Dead",
-     "species": "Alien",
-     "gender": "unknown",
-   },
-   {
-     "name": "Rick Sanchez",
-     "status": "Alive",
-     "species": "Human",
-     "gender": "Male",
-   },
-   {
-     "name": "Morty Smith",
-     "status": "Alive",
-     "species": "Human",
-     "gender": "Male",
-   }
+    name: "Bearded Lady",
+    status: "Dead",
+    species: "Alien",
+    gender: "Female",
+  },
+  {
+    name: "Boobloosian",
+    status: "Dead",
+    species: "Alien",
+    gender: "unknown",
+  },
+  {
+    name: "Rick Sanchez",
+    status: "Alive",
+    species: "Human",
+    gender: "Male",
+  },
+  {
+    name: "Morty Smith",
+    status: "Alive",
+    species: "Human",
+    gender: "Male",
+  },
 ];
 
 
 // Teste do Filtro Genero Male
+
 
 describe('filtroGenero', () => {
   it('Deverá ser uma função', () => {
@@ -82,12 +84,20 @@ it('Deverá filtrar pelo status Dead', () => {
 
 describe('statusSpecies', () => {
   it('Deverá ser uma função', () => {
-    expect(typeof statusSpecies).toBe('function');
+    expect(typeof speciesFilter).toBe('function');
   });
 
   it('Deverá filtrar pela espécie Human', () => {
     const speciesHuman = "Human"
-    const expected = statusSpecies(Personagens, speciesHuman)
+    const expected = speciesFilter(Personagens, speciesHuman)
     expect (expected[0].species).toEqual(speciesHuman)
   }); 
+});
+
+// Teste do 
+
+describe('orderAlfaFilter', () => {
+  it('Deverá ser uma função', () => {
+    expect(typeof orderAlfaFilter).toBe('function');
+  });
 });

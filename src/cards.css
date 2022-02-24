@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
 }
+/******************************** TAG SELECTORS   */
 body {
   background: url(img/espaco.jpg);
   background-size: contain;
@@ -13,6 +14,70 @@ img {
   width: 50%;
 }
 
+/* BOTÃO LIMPAR */
+
+.button {
+  --color: #72ef4b;
+  padding: 0.8em 1.7em;
+  background-color: transparent;
+  border-radius: 0.3em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 400;
+  font-size: 17px;
+  border: 1px solid;
+  font-family: inherit;
+  text-transform: uppercase;
+  color: var(--color);
+  z-index: 1;
+  position: relative;
+}
+
+.button::before,
+.button::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: var(--color);
+  transition: 1s ease;
+}
+
+.button::before {
+  top: -1em;
+  left: -1em;
+}
+
+.button::after {
+  left: calc(100% + 1em);
+  top: calc(100% + 1em);
+}
+
+.button:hover::before,
+.button:hover::after {
+  height: 410px;
+  width: 410px;
+}
+
+.button:hover {
+  color: rgb(65, 190, 232);
+}
+
+.button:active {
+  filter: brightness(0.8);
+}
+select {
+  display: flex;
+}
+/*********************************** CLASS SELECTORS   */
+
+/* IMAGEM DO CABEÇALHO */
 .logo {
   display: flex;
   margin: auto;
@@ -22,18 +87,17 @@ img {
   margin-bottom: 10%;
 }
 
-.nav {
-  position: relative;
-  margin-top: 30px;
+/* ESTILO DA NAV QUE CONTÉM OS SELETORES */
+.nav-filtros {
+  border: 6px solid #06bee1;
+  border-radius: 20px;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
-  align-content: center;
-  margin-top: 10%;
-  height: 150px;
+  justify-content: center;
+  height: 20vh;
+  margin-left: 10%;
+  margin-right: 10%;
 }
-
+/* ESTILO DOS SELETORES */
 .filtros {
   border-radius: 10px;
   color: #06bee1;
@@ -44,6 +108,43 @@ img {
   border-style: none;
 }
 
+/* FORM QUE CONTÉM O BUSCAR E LIMPAR */
+.buscar-e-limpar {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* CAMPO PESQUISAR */
+.pesquisar {
+  font-size: 16px;
+  background: transparent;
+  color: white;
+  border-radius: 20px;
+  border: 4px solid #87f583;
+  margin-right: 50px;
+  width: 25%;
+  text-align: left;
+  
+  
+}
+/* TEXTO QUE ESTÁ DENTRO DO CAMPO BUSCA */
+:placeholder {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+/* PARÁGRAFO QUE MOSTRA O RESULTADO DA PORCENTAGEM */
+.calculo {
+  background: rgb(154, 201, 142);
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* DIV GERAL QUE CONTÉM OS CARDS PRINTADOS NA TELA POR MEIO DO MAIN.JS */
 .cards-container {
   display: flex;
   width: 100%;
@@ -112,100 +213,4 @@ img {
 .card-info:hover .info-lista {
   opacity: 1;
   transform: translateY(0px);
-}
-
-/* Botões */
-
-button {
-  /* From cssbuttons.io by @nikk7007 */
-
-  --color: #72ef4b;
-  padding: 0.8em 1.7em;
-  background-color: transparent;
-  border-radius: 0.3em;
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
-  transition: 0.5s;
-  font-weight: 400;
-  font-size: 17px;
-  border: 1px solid;
-  font-family: inherit;
-  text-transform: uppercase;
-  color: var(--color);
-  z-index: 1;
-  position: relative;
-}
-
-button::before,
-button::after {
-  content: "";
-  display: block;
-  width: 50px;
-  height: 50px;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  border-radius: 50%;
-  z-index: -1;
-  background-color: var(--color);
-  transition: 1s ease;
-}
-
-button::before {
-  top: -1em;
-  left: -1em;
-}
-
-button::after {
-  left: calc(100% + 1em);
-  top: calc(100% + 1em);
-}
-
-button:hover::before,
-.button:hover::after {
-  height: 410px;
-  width: 410px;
-}
-
-button:hover {
-  color: rgb(10, 25, 30);
-}
-
-button:active {
-  filter: brightness(0.8);
-}
-
-/* campo pesquisar */
-.pesquisar {
-  right: 3%;
-  font-size: 16px;
-  background: transparent;
-  color: black;
-  border-radius: 20px;
-  border: 5px solid #87f583;
-  height: 4%;
-  width: 25%;
-  text-align: right;
-}
-
-.nav-filtros {
-  border: 6px solid #06bee1;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  height: 100px;
-}
-
-.calculo {
-  background: rgb(154, 201, 142);
-  justify-content: center;
-  width: 50%;
-  margin: auto;
-  margin-top: 20px;
-}
-
-.buscar-e-limpar {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
 }

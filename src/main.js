@@ -1,7 +1,8 @@
 import {
   filtroGenero,
   statusFilter,
-  statusSpecies,
+  speciesFilter,
+  orderAlfaFilter,
   calcularPorcentagem,
 } from "./data.js";
 
@@ -32,12 +33,14 @@ function printarCards(dados) {
 ``;
 printarCards(dados.results);
 
-///// Filtros
+///// PEGANDO OS SELETORES
 const selecaoGenero = document.getElementById("gender-filter");
 const statusSelect = document.getElementById("status-filter");
 const speciesSelect = document.getElementById("species-filter");
+const orderSelectAz = document.getElementById("alfa-order-filter");
 const texto = document.getElementById("porcentagem-filtro");
 
+///// FUNÇOES
 function mostrarPorcentagem(dados) {
   texto.innerHTML = `Essa categoria representa ${dados}`;
   texto.style.display = "flex"; //tirar essa estilização
@@ -52,6 +55,7 @@ function imprimirFiltroGenero(e) {
   return printarCards(resultadoGenero);
 }
 selecaoGenero.addEventListener("change", imprimirFiltroGenero);
+//ESCUTADOR DEVOLVE O RESULTADO DA FUNCAO PARA O SELETOR
 
 function printStatusFilter(e) {
   const statusResult = statusFilter(dados.results, e.target.value);
@@ -65,7 +69,7 @@ function printStatusFilter(e) {
 statusSelect.addEventListener("change", printStatusFilter);
 
 function printSpeciesFilter(e) {
-  const speciesResult = statusSpecies(dados.results, e.target.value);
+  const speciesResult = speciesFilter(dados.results, e.target.value);
   const porcentagemText = `${calcularPorcentagem(
     dados.results.length,
     speciesResult.length
@@ -74,6 +78,12 @@ function printSpeciesFilter(e) {
   return printarCards(speciesResult);
 }
 speciesSelect.addEventListener("change", printSpeciesFilter);
+
+function printOrderFilterAz(e) {
+  const order = orderAlfaFilter(dados.results, e.target.value);
+  return printarCards(order);
+}
+orderSelectAz.addEventListener("change", printOrderFilterAz);
 
 /* esse arquivo é o DOM - está em interação com o htlm
 
