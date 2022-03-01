@@ -5,14 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="cards.css" />
-    <title>Filtros</title>
+    <link rel="stylesheet" href="cards-media-query.css" />
+    <title>Welcome to the Portal</title>
   </head>
   <body>
     <header>
+      <div class="banner">
+        <p class="nomes-devs">
+          Desenvolvido por Layssa Aragão e Daiane Oltramari
+        </p>
+      </div>
       <div class="logo">
         <img class="imagem-header" src="img/rickandmorty.png" alt="" />
       </div>
     </header>
+
     <nav class="nav-filtros">
       <select name="" title="filtros-genero" class="filtros" id="gender-filter">
         <option value="" selected hidden>Gênero</option>
@@ -41,18 +48,33 @@
         <option value="vampire">Vampiro</option>
         <option value="unknown">Desconhecido</option>
       </select>
-      <select title="filtros-alfab" class="filtros" id="alfa-order-filter">
-        <option value="" selected hidden>Ordem alfabética</option>
+      <select
+        title="filtros-alfab"
+        class="filtros"
+        class=".filtro-alfa"
+        id="alfa-order-filter"
+      >
+        <option value="" selected hidden>Ordem alfa</option>
         <option value="a-z">A - Z</option>
         <option value="z-a">Z - A</option>
       </select>
     </nav>
+<<<<<<< HEAD
     <form class="buscar-e-limpar">
       
       <input class="pesquisar" id="text-search" type="search" placeholder="Busque por nome">
       <input class="button" id="btn" type="reset">
     </form>
 
+=======
+    <div class="form">
+      <form class="buscar-e-limpar">
+        <input class="pesquisar" type="search" placeholder="Busque por nome" />
+        <input class="button" id="btn" type="reset" value="Limpar" />
+      </form>
+  
+    </div>
+>>>>>>> 3cfd3d4ced6890bb3cdc1fb9654f24980463f084
     <p class="calculo" id="porcentagem-filtro"></p>
     <!--calculo de porcentagem -->
     <main>
