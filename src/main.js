@@ -88,12 +88,12 @@ function printOrderFilterAz(e) {
 orderSelectAz.addEventListener("change", printOrderFilterAz);
 
 
-// BUSCAR NOMES PELO SEARCH
+// BUSCAR NOMES PERSONAGENS
 function buscarNomePersonagens(e) {
   const nomePersonagens = searchName(dados.results, e.target.value)
   return printarCards(nomePersonagens);
 }
-buscaNomePersonagem.addEventListener("keyup", buscarNomePersonagens);
+buscaNomePersonagem.addEventListener("keyup", buscarNomePersonagens); // keyup pega o valor de cada tecla que o usuário clicar
 
 
 /* esse arquivo é o DOM - está em interação com o htlm
