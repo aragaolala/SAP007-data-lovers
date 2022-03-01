@@ -30,6 +30,7 @@ const Personagens = [
 
 
 // Teste do Filtro Genero Male
+
   it('Deverá ser uma função', () => {
     expect(typeof filtroGenero).toBe('function'); //typeof retorna uma string indicando o tipo de um operando.
   });
@@ -100,10 +101,10 @@ const Names = [
   });
 
   it('Deverá retornar em ordem A-Z', () => {
-    expect(orderAlfaFilter(Names)).toStrictEqual(Names);
+    expect(orderAlfaFilter(Names)).toEqual(Names);
   });
   it('Deverá retornar em ordem Z-A', () => {
-    expect(orderAlfaFilter(Names)).toStrictEqual(Names.reverse());
+    expect(orderAlfaFilter(Names)).toEqual(Names.reverse());
 });
 
 

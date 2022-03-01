@@ -48,6 +48,6 @@ export const orderAlfaFilter = (dados, order) => {
 
 //////////////////FUNÇÃO DE BUSCA POR NOME- FILTER()
 export const  searchName = (dados, condition) => {
-  const resultado = dados.filter((personagem) => personagem.name.toLowerCase().includes(condition.toLowerCase()));
+  const resultado = dados.filter((personagem) => personagem.name.toLowerCase().includes(condition.toLowerCase())); //O includes()método diferencia maiúsculas de minúsculas.
   return resultado;
 };
