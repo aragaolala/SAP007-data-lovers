@@ -1,0 +1,20 @@
+
+@media (max-width: 600px)
+{
+  body {
+    background: url(img/espaco4.png);
+  }
+  .gif {
+      display: flex;
+  }
+  .gif-portal {
+      display: flex;
+      height: 100%;
+      width: 100%
+
+  }
+  .text {
+      height: 100px;
+      margin-top: 200px;
+  }
+}

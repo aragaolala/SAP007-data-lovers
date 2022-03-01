@@ -1,15 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('style-media-query.css');
 /* Reset */
 * {
-  margin: 0;
-  padding: 0;
+  
   box-sizing: border-box;
   outline: none;
-  font-family: "Lato", sans-serif;
+  font-family: 'Play', sans-serif;
 }
 
 /* Cor da pag */
 body {
-  background: #f2f2f2;
+  background: url(img/espaco.jpg);
+  background-size: contain;
+  background-position: top;
+}
+
+
+
+h1 {
+  font-size: 1vw;
+  color: white;
+  text-align: left;
+  cursor: default;
+}
+
+h2 {
+  font-size: 3vw;
+  margin: 5% 0%;
+  color: white;
+  text-align: left;
+  cursor: default;
+}
+p {
+  font-size: 2vw;
+  color: white;
+  text-align: left;
+  cursor: default;
+  letter-spacing: 0.5px;
 }
 
 /* posição dos textos */
@@ -20,27 +47,6 @@ body {
   justify-content: center;
   flex-direction: column;
   padding-left: 5%;
-}
-
-h1 {
-  font-size: 1vw;
-  color: black;
-  text-align: left;
-  cursor: default;
-}
-
-h2 {
-  font-size: 3vw;
-  margin: 5% 0%;
-  color: black;
-  text-align: left;
-  cursor: default;
-}
-p {
-  font-size: 2vw;
-  color: black;
-  text-align: left;
-  cursor: default;
 }
 
 /* posição do portal  */
@@ -54,7 +60,7 @@ p {
 }
 
 /* Tamanho e estilo do gif */
-.portal-index {
+.gif-portal {
   width: 700px;
   height: 700px;
   border: 10px solid #22a2bd;
@@ -72,6 +78,7 @@ p {
   box-shadow: 0px 10px 40px -12px #00ff8052;
   text-align: center;
   margin-top: 5%;
+  text-decoration: none;
 }
 
 .button:hover {
