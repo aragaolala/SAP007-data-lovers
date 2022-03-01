@@ -16,13 +16,13 @@ function printarCards(dados) {
       <div class="card-info">
         <img src="${item.image}">
         <div class="info-lista">
-            <p><strong>Nome: </strong>${item.name}</p><br>
-            <p><strong>Gênero: </strong>${item.gender}</p><br>      
-            <p><strong>Status: </strong>${item.status}</p><br>
-            <p><strong>Espécie: </strong>${item.species}</p><br>
-            <p><strong>Origem: </strong>${item.origin.name}</p><br>
-            <p><strong>Localização: </strong>${item.location.name}</p><br>
-            <p><strong>Aparece em: </strong>${item.episode.length} episódios</p><br>
+            <p class="p-lista"><strong>Nome: </strong>${item.name}</p><br>
+            <p class="p-lista"><strong>Gênero: </strong>${item.gender}</p><br>      
+            <p class="p-lista"><strong>Status: </strong>${item.status}</p><br>
+            <p class="p-lista"><strong>Espécie: </strong>${item.species}</p><br>
+            <p class="p-lista"><strong>Origem: </strong>${item.origin.name}</p><br>
+            <p class="p-lista"><strong>Localização: </strong>${item.location.name}</p><br>
+            <p class="p-lista"><strong>Aparece em: </strong>${item.episode.length} episódios</p><br>
         </div> 
      </div>
     
