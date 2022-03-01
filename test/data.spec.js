@@ -112,10 +112,10 @@ describe('orderAlfaFilter', () => {
   });
 
   it('Deverá retornar em ordem A-Z', () => {
-    expect(orderAlfaFilter(Names)).toEqual(Names);
+    expect(orderAlfaFilter(Names)).toStrictEqual(Names);  // .toStrictEqual : Use para testar que os objetos têm os mesmos tipos, bem como estrutura.
   });
   it('Deverá retornar em ordem Z-A', () => {
-    expect(orderAlfaFilter(Names)).toEqual(Names.reverse());
+    expect(orderAlfaFilter(Names)).toStrictEqual(Names.reverse());
   });
 });
 

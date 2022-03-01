@@ -1,27 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('style-media-query.css');
 /* Reset */
 * {
-  margin: 0;
-  padding: 0;
+  
   box-sizing: border-box;
   outline: none;
-  font-family: "Lato", sans-serif;
+  font-family: 'Play', sans-serif;
 }
 
 /* Cor da pag */
 body {
   background: url(img/espaco.jpg);
+<<<<<<< HEAD
   background-size: cover;
+=======
+  background-size: contain;
+  background-position: top;
+>>>>>>> 564d8c19ce7f06edc07a8df87121267fe8c77865
 }
 
-/* posição dos textos */
-.text {
-  width: 50vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding-left: 5%;
-}
+
 
 h1 {
   font-size: 1vw;
@@ -42,6 +40,17 @@ p {
   color: white;
   text-align: left;
   cursor: default;
+  letter-spacing: 0.5px;
+}
+
+/* posição dos textos */
+.text {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 5%;
 }
 
 /* posição do portal  */
@@ -55,7 +64,7 @@ p {
 }
 
 /* Tamanho e estilo do gif */
-.portal-index {
+.gif-portal {
   width: 700px;
   height: 700px;
   border: 10px solid #22a2bd;
@@ -72,6 +81,7 @@ p {
   cursor: pointer;
   box-shadow: 0px 10px 40px -12px #00ff8052;
   text-align: center;
+  margin-top: 5%;
   text-decoration: none;
 }
 
