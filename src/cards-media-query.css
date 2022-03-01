@@ -16,7 +16,7 @@
     margin-top: 5%;
   }
   .cards-container {
-    margin-top: 10px;
+    margin-top: 80px;
   }
   .filtros {
     width: 50%;
@@ -119,4 +119,17 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 450px) {
+    .filtros {
+        width: 100%;
+    }
+    .cards-container {
+        margin-top: 80px;
+    }
+    .calculo {
+        margin-top: 50px;
+    }
+}
+
 

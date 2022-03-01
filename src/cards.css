@@ -18,21 +18,21 @@ img {
 /* BOTÃO LIMPAR CAMPO BUSCA */
 
 .button {
-  --color: #72ef4b;
+  color: #72ef4b;
   padding: 0.8em 1.7em;
   background-color: transparent;
   border-radius: 0.3em;
-  position: relative;
-  overflow: hidden;
+  
+  
   cursor: pointer;
   transition: 0.5s;
-  font-weight: 400;
+  
   font-size: 17px;
   border: 1px solid;
   font-family: inherit;
   text-transform: uppercase;
-  color: var(--color);
-  z-index: 1;
+  
+ 
   position: relative;
 }
 
@@ -111,6 +111,7 @@ select {
   justify-content: center;
   margin: auto;
   margin-top: 40px;
+  margin-bottom: 40px;
   color: white;
   width: 80%;
   text-align: center;
