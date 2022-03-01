@@ -30,9 +30,6 @@ const Personagens = [
 
 
 // Teste do Filtro Genero Male
-
-
-describe('filtroGenero', () => {
   it('Deverá ser uma função', () => {
     expect(typeof filtroGenero).toBe('function'); //typeof retorna uma string indicando o tipo de um operando.
   });
@@ -42,12 +39,10 @@ describe('filtroGenero', () => {
     const expected = filtroGenero(Personagens, genderFemale)
     expect (expected[0].gender).toEqual(genderFemale)
   });
-});
+
 
 
 //Teste da Porcentagem
-
-describe('calcularPorcentagem', () => {
   it('Deverá ser uma função', () => {
     expect(typeof calcularPorcentagem).toBe('function'); // A função .toBe verifica não só se os dois valores são iguais, mas também se eles são do mesmo objeto.
   });
@@ -56,12 +51,10 @@ describe('calcularPorcentagem', () => {
     const expected = calcularPorcentagem(Personagens.length, 2)
     expect(expected).toEqual(50) //A função .toEqual(valor) verifica se duas coisas são iguais (e não necessariamente o mesmo objeto).
   });
-});
+
 
 
 // Teste do Status
-
-describe('statusFilter', () => {
   it('Deverá ser uma função', () => {
   expect(typeof statusFilter).toBe('function');
 });
@@ -77,12 +70,10 @@ it('Deverá filtrar pelo status Dead', () => {
     const expected = statusFilter(Personagens, statusDead)
     expect (expected[0].status).toEqual(statusDead)
   });
-});
+
 
 
 // Teste do Espécie
-
-describe('statusSpecies', () => {
   it('Deverá ser uma função', () => {
     expect(typeof speciesFilter).toBe('function');
   });
@@ -92,7 +83,7 @@ describe('statusSpecies', () => {
     const expected = speciesFilter(Personagens, speciesHuman)
     expect (expected[0].species).toEqual(speciesHuman)
   }); 
-});
+
 
 
 const Names = [
@@ -104,8 +95,6 @@ const Names = [
 
 
 // Teste do ordem alfabética
-
-describe('orderAlfaFilter', () => {
   it('Deverá ser uma função', () => {
     expect(typeof orderAlfaFilter).toBe('function');
   });
@@ -116,11 +105,10 @@ describe('orderAlfaFilter', () => {
   it('Deverá retornar em ordem Z-A', () => {
     expect(orderAlfaFilter(Names)).toStrictEqual(Names.reverse());
 });
-});
+
 
 
 // Teste da função buscar nome do personagem
-describe('buscarNome', () => {
   it('Deverá ser uma função', () => {
     expect(typeof searchName).toBe('function');
   });
@@ -128,4 +116,3 @@ describe('buscarNome', () => {
     const expected = searchName(Names, 'Rick')
     expect (expected).toEqual([{"name": "Rick Sanchez"}])
   });
-});
