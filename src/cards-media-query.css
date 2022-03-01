@@ -130,4 +130,8 @@
   .calculo {
     margin-top: 50px;
   }
+  .nomes-devs {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }

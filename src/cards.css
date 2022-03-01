@@ -1,6 +1,5 @@
 /* FONTES GOOGLE */
-@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&family=Barlow+Semi+Condensed:wght@300&family=Cairo:wght@300&family=Exo:wght@300&family=Josefin+Sans:wght@300&family=Play&family=Titillium+Web:wght@300&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -198,17 +197,9 @@ select {
 .nomes-devs {
   padding-top: 5%;
   padding-bottom: 5%;
-  color: rgba(245, 245, 245, 0.47);
+  color: rgba(245, 245, 245, 0.564);
   font-family: 'Play', sans-serif;
+  letter-spacing: 1px;
+  font-size: 15px;
 }
 
-/* CSS rules to specify families
-
-font-family: 'Baloo Bhaijaan 2', cursive;
-font-family: 'Barlow Semi Condensed', sans-serif;
-font-family: 'Cairo', sans-serif;
-font-family: 'Exo', sans-serif;
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Play', sans-serif;
-font-family: 'Titillium Web', sans-serif;
-*/
