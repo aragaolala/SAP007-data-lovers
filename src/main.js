@@ -43,8 +43,8 @@ const texto = document.getElementById("porcentagem-filtro");
 ///// FUNÇOES
 function mostrarPorcentagem(dados) {
   texto.innerHTML = `Essa categoria representa ${dados}`;
-  texto.style.display = "flex"; //tirar essa estilização
 }
+
 function imprimirFiltroGenero(e) {
   const resultadoGenero = filtroGenero(dados.results, e.target.value);
   const porcentagemText = `${calcularPorcentagem(
