@@ -1,25 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
-@import url('style-media-query.css');
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+@import url("style-media-query.css");
 /* Reset */
 * {
-  
   box-sizing: border-box;
   outline: none;
-  font-family: 'Play', sans-serif;
+  font-family: "Play", sans-serif;
 }
 
 /* Cor da pag */
 body {
   background: url(img/espaco.jpg);
-<<<<<<< HEAD
-  background-size: cover;
-=======
   background-size: contain;
   background-position: top;
->>>>>>> 564d8c19ce7f06edc07a8df87121267fe8c77865
 }
-
-
 
 h1 {
   font-size: 1vw;
