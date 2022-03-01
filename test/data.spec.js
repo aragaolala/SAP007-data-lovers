@@ -1,4 +1,4 @@
-import { filtroGenero,statusFilter,speciesFilter,orderAlfaFilter,calcularPorcentagem,} from '../src/data.js';
+import { filtroGenero,statusFilter,speciesFilter,orderAlfaFilter,calcularPorcentagem,searchName,} from '../src/data.js';
 
 
 const Personagens = [
@@ -94,10 +94,38 @@ describe('statusSpecies', () => {
   }); 
 });
 
-// Teste do 
+
+const Names = [
+  {"name": "Bearded Lady"},
+  {"name": "Rick Sanchez"},
+  {"name": "Morty Smith"},
+  {"name": "Boobloosian"},
+]
+
+
+// Teste do ordem alfabética
 
 describe('orderAlfaFilter', () => {
   it('Deverá ser uma função', () => {
     expect(typeof orderAlfaFilter).toBe('function');
+  });
+
+  it('Deverá retornar em ordem A-Z', () => {
+    expect(orderAlfaFilter(Names)).toStrictEqual(Names);
+  });
+  it('Deverá retornar em ordem Z-A', () => {
+    expect(orderAlfaFilter(Names)).toStrictEqual(Names.reverse());
+});
+});
+
+
+// Teste da função buscar nome do personagem
+describe('buscarNome', () => {
+  it('Deverá ser uma função', () => {
+    expect(typeof searchName).toBe('function');
+  });
+  it('Deveverá buscar por um nome', () => {
+    const expected = searchName(Names, 'Rick')
+    expect (expected).toEqual([{"name": "Rick Sanchez"}])
   });
 });

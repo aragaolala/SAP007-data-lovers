@@ -4,6 +4,7 @@ import {
   speciesFilter,
   orderAlfaFilter,
   calcularPorcentagem,
+  searchName
 } from "./data.js";
 
 import dados from "./data/rickandmorty/rickandmorty.js";
@@ -39,6 +40,7 @@ const statusSelect = document.getElementById("status-filter");
 const speciesSelect = document.getElementById("species-filter");
 const orderSelectAz = document.getElementById("alfa-order-filter");
 const texto = document.getElementById("porcentagem-filtro");
+const buscaNomePersonagem = document.getElementById("text-search");
 
 ///// FUNÇOES
 function mostrarPorcentagem(dados) {
@@ -84,6 +86,15 @@ function printOrderFilterAz(e) {
   return printarCards(order);
 }
 orderSelectAz.addEventListener("change", printOrderFilterAz);
+
+
+// BUSCAR NOMES PELO SEARCH
+function buscarNomePersonagens(e) {
+  const nomePersonagens = searchName(dados.results, e.target.value)
+  return printarCards(nomePersonagens);
+}
+buscaNomePersonagem.addEventListener("keyup", buscarNomePersonagens);
+
 
 /* esse arquivo é o DOM - está em interação com o htlm
 

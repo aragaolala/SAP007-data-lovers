@@ -41,3 +41,9 @@ export const orderAlfaFilter = (dados, order) => {
     return dados.sort((a, z) => (a.name > z.name ? -1 : 1));
   }
 };
+
+//////////////////FUNÇÃO DE BUSCA POR NOME- FILTER()
+export const  searchName = (dados, condition) => {
+  const resultado = dados.filter((personagem) => personagem.name.toLowerCase().includes(condition.toLowerCase()));
+  return resultado;
+};
