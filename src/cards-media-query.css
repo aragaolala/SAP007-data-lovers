@@ -1,3 +1,4 @@
+/* TELAS GRANDES */
 @media (min-width: 1001px) {
   .nav-filtros {
     padding-bottom: 0px;
@@ -6,7 +7,7 @@
     width: 30%;
   }
 }
-/******************* MEDIA TABLET ***/
+/* MEDIA TABLET */
 @media (min-width: 601px) and (max-width: 1000px) {
   body {
     background: url(img/espaco4.png);
@@ -42,8 +43,18 @@
   }
 }
 
-/******************* MEDIA CELULAR ***/
+/* MEDIA CELULAR */
 @media screen and (max-width: 600px) {
+  img {
+    width: 260px;
+  }
+  body {
+    background: url(img/espaco4.png);
+  }
+  header {
+    align-content: center;
+    justify-content: center;
+  }
   .banner {
     display: flex;
     text-align: center;
@@ -57,18 +68,6 @@
     margin-top: 70px;
     display: flex;
     width: 50%;
-  }
-
-  img {
-    width: 260px;
-  }
-
-  body {
-    background: url(img/espaco4.png);
-  }
-  header {
-    align-content: center;
-    justify-content: center;
   }
 
   .nav-filtros {
@@ -94,7 +93,8 @@
   }
   .buscar-e-limpar {
     display: grid;
-    margin-top: 250px; /* coloquei tam fixo pq estava mudando com as quebras do media */
+    margin-top: 250px;
+    /* coloquei tam fixo pq estava mudando com as quebras do media */
   }
   .pesquisar {
     height: 50px;
@@ -119,17 +119,15 @@
     text-align: center;
   }
 }
-
+/* AJUSTES PARA TELAS PEQUENAS */
 @media screen and (max-width: 450px) {
-    .filtros {
-        width: 100%;
-    }
-    .cards-container {
-        margin-top: 80px;
-    }
-    .calculo {
-        margin-top: 50px;
-    }
+  .filtros {
+    width: 100%;
+  }
+  .cards-container {
+    margin-top: 60px;
+  }
+  .calculo {
+    margin-top: 50px;
+  }
 }
-
-
