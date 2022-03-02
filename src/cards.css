@@ -53,7 +53,7 @@ select {
 
 /* ESTILO DA NAV QUE CONTÉM OS SELETORES */
 .nav-filtros {
-  border: 6px solid #06bee1;
+  
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -68,8 +68,10 @@ select {
   font-size: 1.5rem;
   height: 3rem;
   margin: auto;
-  background-color: #512258;
-  border-style: none;
+  background-color: transparent;
+  padding-left: 1%;
+  padding-right: 1%;
+  border: 2px solid purple;
   font-family: "Play", sans-serif;
 }
 
