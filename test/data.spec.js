@@ -98,9 +98,23 @@ describe('speciesFilter', () => {
 
 const Names = [
   {"name": "Bearded Lady"},
+  {"name": "Rick Sanchez"},  
+  {"name": "Morty Smith"},
+  {"name": "Boobloosian"},
+]
+
+const NamesorderAZ = [
+  {"name": "Bearded Lady"},
+  {"name": "Boobloosian"},
+  {"name": "Morty Smith"},
+  {"name": "Rick Sanchez"},
+]
+
+const NamesorderZA = [
   {"name": "Rick Sanchez"},
   {"name": "Morty Smith"},
   {"name": "Boobloosian"},
+  {"name": "Bearded Lady"},
 ]
 
 
@@ -112,10 +126,10 @@ describe('orderAlfaFilter', () => {
   });
 
   it('Deverá retornar em ordem A-Z', () => {
-    expect(orderAlfaFilter(Names)).toStrictEqual(Names);  // .toStrictEqual : Use para testar que os objetos têm os mesmos tipos, bem como estrutura.
+    expect(orderAlfaFilter(Names, "a-z" )).toStrictEqual(NamesorderAZ);  // .toStrictEqual : Use para testar que os objetos têm os mesmos tipos, bem como estrutura.
   });
   it('Deverá retornar em ordem Z-A', () => {
-    expect(orderAlfaFilter(Names)).toStrictEqual(Names.reverse());
+    expect(orderAlfaFilter(Names, "z-a")).toStrictEqual(NamesorderZA);
   });
 });
 
