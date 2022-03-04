@@ -53,7 +53,6 @@ select {
 
 /* ESTILO DA NAV QUE CONTÉM OS SELETORES */
 .nav-filtros {
-  
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -201,4 +200,13 @@ select {
   font-family: "Play", sans-serif;
   letter-spacing: 1px;
   font-size: 15px;
+}
+.fixed-button {
+  position: fixed;
+  height: 19vw;
+  margin-top: 9vw;
+  top: 25vw;
+  width: 17vw;
+  position: fixed;
+  margin-left: 82vw;
 }
