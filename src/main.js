@@ -4,7 +4,7 @@ import {
   speciesFilter,
   orderAlfaFilter,
   calcularPorcentagem,
-  searchName
+  searchName,
 } from "./data.js";
 
 import dados from "./data/rickandmorty/rickandmorty.js";
@@ -31,7 +31,7 @@ function printarCards(dados) {
     )
     .join("");
 }
-``;
+
 printarCards(dados.results);
 
 ///// PEGANDO OS SELETORES
@@ -48,7 +48,8 @@ function mostrarPorcentagem(dados) {
 }
 
 function imprimirFiltroGenero(e) {
-  const resultadoGenero = filtroGenero(dados.results, e.target.value);
+  const resultadoGenero = filtroGenero(dados.results, e.target.value); 
+  //e.target.value -> esse evento vai atrás do "alvo" selecionado no input do select
   const porcentagemText = `${calcularPorcentagem(
     dados.results.length,
     resultadoGenero.length
@@ -57,7 +58,9 @@ function imprimirFiltroGenero(e) {
   return printarCards(resultadoGenero);
 }
 selecaoGenero.addEventListener("change", imprimirFiltroGenero);
-//ESCUTADOR DEVOLVE O RESULTADO DA FUNCAO PARA O SELETOR
+/* ESCUTADOR DEVOLVE O RESULTADO DA FUNCAO PARA O SELETOR e quem faz aparecer na tela é o "change"
+"change" -> esse evento aplica alguma mudança após selecionar um valor no select e 
+devolve para a tela essa mudança */
 
 function printStatusFilter(e) {
   const statusResult = statusFilter(dados.results, e.target.value);
@@ -87,14 +90,12 @@ function printOrderFilterAz(e) {
 }
 orderSelectAz.addEventListener("change", printOrderFilterAz);
 
-
 // BUSCAR NOMES PERSONAGENS
 function buscarNomePersonagens(e) {
-  const nomePersonagens = searchName(dados.results, e.target.value)
+  const nomePersonagens = searchName(dados.results, e.target.value);
   return printarCards(nomePersonagens);
 }
 buscaNomePersonagem.addEventListener("keyup", buscarNomePersonagens); // keyup pega o valor de cada tecla que o usuário clicar
-
 
 /* esse arquivo é o DOM - está em interação com o htlm
 

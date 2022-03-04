@@ -12,6 +12,7 @@ body {
   background: url(img/espaco.jpg);
   background-size: contain;
   background-position: top;
+  margin: 0;
 }
 
 h1 {
@@ -38,22 +39,34 @@ p {
 
 /* posição dos textos */
 .text {
-  width: 50vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding-left: 5%;
+  
+    width: 90%;
+    height: 40%;
+    margin-left: 30px;
+    margin-top: 12vw;
+    margin-bottom: 8vh;
+    display: flex;
+    padding-left: 5%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+  
 }
 
 
 
 
 /* Tamanho e estilo do gif */
+.div-do-gif {
+  text-align: left;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
 .gif {
-  width: 700px;
-  height: 700px;
-  border: 8px solid rgba(128, 0, 128, 0.687);
+  height: 50%;
+  width: 60%;
+  border: 6px solid rgba(128, 0, 128, 0.687);
   border-radius: 20px;
 }
 
@@ -88,8 +101,8 @@ p {
   margin-top: 150px;
 }
 .nomes-devs {
-  padding-top: 5%;
-  padding-bottom: 5%;
+  margin-top: 6vw;
+  margin-bottom: 6vw;
   color: rgba(245, 245, 245, 0.564);
   font-family: "Play", sans-serif;
   letter-spacing: 1px;
