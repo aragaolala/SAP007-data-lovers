@@ -98,11 +98,11 @@ p {
   display: flex;
   text-align: center;
   background-color: rgba(128, 0, 128, 0.516);
-  margin-top: 150px;
+  margin-top: 12vw;
 }
 .nomes-devs {
-  margin-top: 6vw;
-  margin-bottom: 6vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
   color: rgba(245, 245, 245, 0.564);
   font-family: "Play", sans-serif;
   letter-spacing: 1px;
