@@ -1,5 +1,5 @@
-/* MEDIA TABLET */
-@media (min-width: 769px) and (max-width: 1000px)
+/* MEDIA TELAS GRANDES */
+@media (min-width: 769px) and (max-width: 1280px)
 {
   h1 {
     font-size: 1.5vw;
@@ -10,7 +10,20 @@
   p {
     font-size: 2.5vw;
   }
-
+  .text {
+    width: 40vw;
+    float: left;
+  }
+  .gif {
+    height: 36vw;
+    width: 48vw;
+    margin-bottom: 18vw;
+    margin-top: 18vw;
+    margin-left: 5vw;
+  }
+  .div-do-gif {
+    display: flex;
+  }
   .button {
     
     width: 200px;
@@ -23,6 +36,9 @@
   body {
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .banner { 
+    margin-top: 16vw;
   }
   .nomes-devs {
       font-size: 13px;
