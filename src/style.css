@@ -114,23 +114,26 @@ p {
 /* DIV COM NOMES DAS DEVELOPERS */
 .banner {
   justify-content: center;
-  display: flex;
+  display: inline-block;
   text-align: center;
   background-color: rgba(128, 0, 128, 0.516);
   margin-top: 12vw;
+  width: 100%;
+  padding-bottom: 3vw;
+  height: 100%;
 }
 .nomes-devs {
-  margin-top: 5vw;
-  margin-bottom: 5vw;
+  margin-top: 7vw;
+  margin-bottom: 3vw;
   color: rgba(245, 245, 245, 0.564);
   font-family: "Play", sans-serif;
   letter-spacing: 1px;
-  font-size: 15px;
+  font-size: 4vw;
 }
 .imagem-contato {
   display: inline-block;
   border-radius: 100px;
-  width: 6%;
+  width: 6vw;
   text-align: center;
 }
 
