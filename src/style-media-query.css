@@ -2,35 +2,9 @@
 @media (min-width: 769px) and (max-width: 1600px) {
   h1 {
     font-size: 1.5vw;
-    
-  }
-  h2{
-    color: #484848;
-    font-size: 3vw;
-    font-weight: bold;
-    font-family: monospace;
-    letter-spacing: 7px;
-    cursor: pointer
-  }
-  h2 span{
-    transition: .5s linear
-  }
-  h2:hover span:nth-child(1){
-    margin-right: 15px
   }
 
-  
-  h2:hover span:nth-child(2){
-    margin-left: 15px
-  }
-  h2:hover span{
-    color: #8bfac6;
-    text-shadow: 0 0 10px #fff,
-                 0 0 20px #fff, 
-                 0 0 40px #fff;
-  }
-
-/* h2{
+  /* h2{
   color: #484848;
   font-size: 3vw;
   font-weight: bold;
@@ -58,17 +32,17 @@ h2:hover span{
 }  */
 
   p {
-    font-size: 2.5vw;
+    font-size: 2.4vw;
   }
   .text {
     width: 40vw;
     float: left;
   }
   .gif {
-    height: 36vw;
-    width: 48vw;
+    height: 35vw;
+    width: 47vw;
     margin-bottom: 18vw;
-    margin-top: 18vw;
+    margin-top: 23vw;
     margin-left: 5vw;
   }
   .div-do-gif {
@@ -85,11 +59,9 @@ h2:hover span{
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .banner {
-    
-  }
+
   .nomes-devs {
-    font-size: 13px;
+    font-size: 1.6vw;
     text-align: center;
   }
 }
@@ -100,7 +72,7 @@ h2:hover span{
     font-size: 0.8rem;
   }
   h2 {
-    font-size: 1.5rem;
+    font-size: 5vw;
   }
   p {
     font-size: 4.2vw;

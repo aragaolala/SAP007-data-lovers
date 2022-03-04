@@ -21,14 +21,33 @@ h1 {
   text-align: center;
   cursor: default;
 }
-
+/* animação no mome rick and morty */
 h2 {
-  font-size: 3vw;
-  margin: 5% 0%;
-  color: white;
-  text-align: center;
-  cursor: default;
-}
+    color: #484848;
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: "Play", sans-serif;
+    letter-spacing: 7px;
+    cursor: pointer
+  }
+  h2 span{
+    transition: .5s linear
+  }
+  h2:hover span:nth-child(1){
+    margin-right: 15px
+  }
+
+  
+  h2:hover span:nth-child(2){
+    margin-left: 15px
+  }
+  h2:hover span{
+    color: #8bfac6;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff, 
+                 0 0 40px #fff;
+  }
+
 p {
   font-size: 2vw;
   color: white;
@@ -107,6 +126,12 @@ p {
   font-family: "Play", sans-serif;
   letter-spacing: 1px;
   font-size: 15px;
+}
+.imagem-contato {
+  display: inline-block;
+  border-radius: 100px;
+  width: 6%;
+  text-align: center;
 }
 
  
