@@ -70,7 +70,7 @@ select {
   background-color: transparent;
   padding-left: 1%;
   padding-right: 1%;
-  border: 2px solid purple;
+  border: 1.8px solid purple;
   font-family: "Play", sans-serif;
 }
 
@@ -91,6 +91,7 @@ select {
   margin-right: 50px;
   width: 100%;
   text-align: left;
+  padding-left: 1%;
 }
 /* TEXTO QUE ESTÁ DENTRO DO CAMPO PESQUISAR */
 :placeholder {
@@ -203,8 +204,8 @@ select {
 }
 .fixed-button {
   position: fixed;
-  width: 19vw;
-  height: 21vw;
+    width: 19vw;
+    height: 21vw;
     bottom: 0;
     right: 0px;
     margin-bottom: 58px;

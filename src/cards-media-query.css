@@ -6,6 +6,10 @@
   .pesquisar {
     width: 30%;
   }
+  .fixed-button {
+    width: 11vw;
+    height: 12vw
+  }
 }
 /* MEDIA TABLET */
 @media (min-width: 601px) and (max-width: 1000px) {
@@ -22,9 +26,9 @@
   .filtros {
     width: 50%;
     margin-top: 10px;
-    font-size: 1rem;
+    font-size: 1.1rem;
     background: transparent;
-    border: 2px solid purple;
+    border: 1.5px solid purple;
     margin: 1%;
     padding-left: 1%;
   }
@@ -34,12 +38,17 @@
   }
   .pesquisar {
     width: 30%;
-    padding-left: 1%;
+    
+    margin-right: 17px;
   }
   .form {
     justify-content: center;
     display: block;
     text-align: center;
+  }
+  .fixed-button {
+    width: 13vw;
+    height: 14vw;
   }
 }
 
@@ -82,7 +91,7 @@
   .filtros {
     width: 63vw;
     margin-top: 10px;
-    font-size: 1rem;
+    font-size: 1.1rem;
     background: transparent;
     border: 1.5px solid purple;
     padding-left: 1%;
@@ -136,7 +145,10 @@
     padding-right: 5px;
   }
   .card-info {
-    height: 21em;
-    width: 85%;
+    height: 19em;
+    width: 76vw;
+  }
+  .p-lista {
+    font-size: 4.5vw;
   }
 }
