@@ -80,11 +80,11 @@
   }
 
   .filtros {
-    width: 50%;
+    width: 63vw;
     margin-top: 10px;
     font-size: 1rem;
     background: transparent;
-    border: 2px solid purple;
+    border: 1.5px solid purple;
     padding-left: 1%;
   }
   .fitros,
@@ -93,17 +93,18 @@
   }
   .buscar-e-limpar {
     display: grid;
-    margin-top: 250px;
+    margin-top: 216px;
     /* coloquei tam fixo pq estava mudando com as quebras do media */
   }
   .pesquisar {
     height: 50px;
-    border: 1.5px solid #87f583;
-
-    padding-left: 1%;
+    margin-right: 0px;
+    width: 63vw;;
+    padding-left: 2vw;
   }
   .button {
     margin-top: 10px;
+    width: 63vw;;
   }
   .cards-container {
     margin-top: 100px;
@@ -114,15 +115,15 @@
   }
 
   .form {
+    display: flex;
     justify-content: center;
-    display: block;
     text-align: center;
   }
 }
 /* AJUSTES PARA TELAS PEQUENAS */
 @media screen and (max-width: 450px) {
   .filtros {
-    width: 100%;
+    width: 63vw;;
   }
   .cards-container {
     margin-top: 60px;

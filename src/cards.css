@@ -27,13 +27,13 @@ select {
   color: #72ef4b;
   padding: 0.8em 1.7em;
   background-color: transparent;
-  border-radius: 0.3em;
+  border-radius: 10px;
   cursor: pointer;
   transition: 0.5s;
   font-size: 17px;
   border: 1px solid;
   font-family: "Play", sans-serif;
-  text-transform: uppercase;
+  
   position: relative;
 }
 
@@ -86,8 +86,8 @@ select {
   font-size: 16px;
   background: transparent;
   color: white;
-  border-radius: 0.3em;
-  border: 1px solid #87f583;
+  border-radius: 10px;
+  border: 1.5px solid purple;
   margin-right: 50px;
   width: 100%;
   text-align: left;
