@@ -203,10 +203,10 @@ select {
 }
 .fixed-button {
   position: fixed;
-  height: 19vw;
-  margin-top: 9vw;
-  top: 25vw;
-  width: 17vw;
-  position: fixed;
-  margin-left: 82vw;
+  width: 19vw;
+  height: 21vw;
+    bottom: 0;
+    right: 0px;
+    margin-bottom: 58px;
 }
+
