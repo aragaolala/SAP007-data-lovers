@@ -128,6 +128,10 @@
     justify-content: center;
     text-align: center;
   }
+  .fixed-button {
+    width: 17vw;
+    height: 19vw;
+  }
 }
 /* AJUSTES PARA TELAS PEQUENAS */
 @media screen and (max-width: 450px) {
@@ -145,10 +149,10 @@
     padding-right: 5px;
   }
   .card-info {
-    height: 19em;
+    height: 24em;
     width: 76vw;
   }
   .p-lista {
-    font-size: 4.5vw;
+    
   }
 }
