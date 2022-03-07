@@ -141,7 +141,7 @@ describe('searchName', () => {
   it('Deverá ser uma função', () => {
     expect(typeof searchName).toBe('function');
   });
-  it('Deveverá buscar por um nome', () => {
+  it('Deverá buscar por um nome', () => {
     const expected = searchName(Names, 'Rick')
     expect (expected).toEqual([{"name": "Rick Sanchez"}])
   });
