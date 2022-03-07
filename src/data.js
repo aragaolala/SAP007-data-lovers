@@ -64,33 +64,4 @@ export const  searchName = (dados, condition) => {
   const resultado = dados.filter((personagem) => personagem.name.toLowerCase().includes(condition.toLowerCase())); //O includes()método diferencia maiúsculas de minúsculas.
   return resultado;
 };
-<<<<<<< HEAD
 
-/* esse
-if (order === "a-z") {
-    return dados.sort((a, z) => (a.name > z.name ? 1 : -1));
-  } else {
-    return dados.sort((a, z) => (a.name > z.name ? -1 : 1));
-  } // linha 52 nao cobre no teste - rever
-*
-
- if (order === "a-z") {
-    return dados.sort((a, z) => { 
-      a.name > z.name
-      return -1;
-    } 
-
-  } if (order === "z-a") {
-    return dados.sort((a, z) => {
-    a.name < z.name
-    return 1;
-    }
-  }
-};
-
-
-
-
-*/
-=======
->>>>>>> b7f2959215e517db063aebf972b02d9f35dd8261
