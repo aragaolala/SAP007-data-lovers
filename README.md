@@ -62,6 +62,7 @@ Inserimos um botão "limpar filtros".
 ## 4. Protótipos
 
 ### 4.1 Protótipo de baixa fidelidade
+
 4.1.1 Página de boas vindas
 
 <img alt="Paleta de cores" src="prot-baixa1.png" width="350px">
@@ -82,8 +83,13 @@ Uitlizamos o site coolors.com para sua criação.
 <img alt="Paleta de cores" src="paleta.png" width="250px">
 
 ---
+
 ### 5. Testes unitários
-#
+
+Os testes unitários foram desenvolvidos para fazer com que o projeto rode adequadamente, nele você consegue verificar se cada função está dando o retorno esperado.
+
+---
+
 ### 6. Tecnologias
 
 ![Getting Started](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
@@ -97,4 +103,5 @@ Uitlizamos o site coolors.com para sua criação.
 [![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff)](https://code.visualstudio.com/)
 
 ### 6. Resultado
+
 6.1 Celulares e tablets
