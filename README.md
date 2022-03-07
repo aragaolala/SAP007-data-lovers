@@ -70,6 +70,7 @@ Inserimos um botão "limpar filtros".
 ### 4.2 Protótipo de alta fidelidade
 
 4.2.1 Página de boas vindas
+
 <img alt="Paleta de cores" src="prot-alta-fide2.png" width="400px">
 
 4.2.2 Página principal com os Cards
