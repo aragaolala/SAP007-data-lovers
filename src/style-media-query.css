@@ -3,37 +3,15 @@
   h1 {
     font-size: 1.5vw;
   }
-
-  /* h2{
-  color: #484848;
-  font-size: 3vw;
-  font-weight: bold;
-  font-family: monospace;
-  letter-spacing: 7px;
-  cursor: pointer
-}
-h2 span{
-  transition: .5s linear
-}
-h2:hover span:nth-child(1){
-  margin-right: 5px
-}
-h2:hover span:nth-child(1):after{
-  content: "'";
-}
-h2:hover span:nth-child(2){
-  margin-left: 30px
-}
-h2:hover span{
-  color: #fff;
-  text-shadow: 0 0 10px #fff,
-               0 0 20px #fff, 
-               0 0 40px #fff;
-}  */
-
   p {
     font-size: 2.4vw;
   }
+  body {
+    background: url(img/espaco8.jpg);
+    background-repeat: no-repeat;
+    
+  }
+
   .imagem-contato {
     width: 4vw; 
   }
@@ -114,9 +92,15 @@ h2:hover span{
   .banner {
     margin-top: 38vw;
     background-color: #06bce193;
+    padding-bottom: 18px;
+}
   }
   .nomes-devs {
-    font-size: 2.5vw;
+    font-size: 2.7vh;
     text-align: center;
-  }
+    padding-left: 10px;
+    padding-right: 10px;
+   
 }
+
+
