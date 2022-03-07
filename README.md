@@ -85,13 +85,13 @@ Uitlizamos o site coolors.com para sua criação.
 
 ---
 
-### 5. Testes unitários
+## 5. Testes unitários
 
 Os testes unitários foram desenvolvidos para fazer com que o projeto rode adequadamente, nele você consegue verificar se cada função está dando o retorno esperado.
 
 ---
 
-### 6. Tecnologias
+## 6. Tecnologias
 
 ![Getting Started](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
 
@@ -103,6 +103,14 @@ Os testes unitários foram desenvolvidos para fazer com que o projeto rode adequ
 
 [![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff)](https://code.visualstudio.com/)
 
-### 6. Resultado
+## 7. Resultado
 
 6.1 Celulares e tablets
+
+---
+
+## 8. Desenvolvedoras
+
+<h2 align="center"><a style="color:purple" href="https://github.com/lalaonde" target="_blank">Layssa Aragão</a> e <a style="color:purple" href="https://github.com/daianeoltramari">Daiane Oltramari</a></h2>
+
+![Final](https://media.giphy.com/media/cOKjNdJDbqNCm4n0Jm/giphy.gif)
