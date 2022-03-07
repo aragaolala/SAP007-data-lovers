@@ -64,6 +64,7 @@ export const  searchName = (dados, condition) => {
   const resultado = dados.filter((personagem) => personagem.name.toLowerCase().includes(condition.toLowerCase())); //O includes()método diferencia maiúsculas de minúsculas.
   return resultado;
 };
+<<<<<<< HEAD
 
 /* esse
 if (order === "a-z") {
@@ -91,3 +92,5 @@ if (order === "a-z") {
 
 
 */
+=======
+>>>>>>> b7f2959215e517db063aebf972b02d9f35dd8261
