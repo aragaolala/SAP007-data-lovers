@@ -1,0 +1,106 @@
+/* MEDIA TELAS GRANDES */
+@media (min-width: 769px) and (max-width: 2000px) {
+  h1 {
+    font-size: 1.5vw;
+  }
+  p {
+    font-size: 2.4vw;
+  }
+  body {
+    background: url(img/espaco8.jpg);
+    background-repeat: no-repeat;
+    
+  }
+
+  .imagem-contato {
+    width: 4vw; 
+  }
+  .text {
+    width: 40vw;
+    float: left;
+  }
+  .gif {
+    height: 35vw;
+    width: 47vw;
+    margin-bottom: 18vw;
+    margin-top: 23vw;
+    margin-left: 5vw;
+  }
+  .div-do-gif {
+    display: flex;
+  }
+  .button {
+    width: 200px;
+  }
+  p {
+    width: 100%;
+  }
+
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .nomes-devs {
+    font-size: 2vw;
+    text-align: center;
+  }
+}
+
+/* MEDIA CELULAR & TABLET */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 0.8rem;
+  }
+  h2 {
+    font-size: 5vw;
+  }
+  p {
+    font-size: 4.2vw;
+    width: 100%;
+  }
+
+  body {
+    background: url(img/espaco4.png);
+    background-repeat: no-repeat;
+  }
+  .gif {
+    width: 90%;
+    height: 50%;
+    margin-top: 50px;
+    border-color: #06bce193;
+  }
+
+  .text {
+    height: 50%;
+    margin-left: 3%;
+    width: 90%;
+    margin-top: 25vw;
+    margin-bottom: 12vw;
+  }
+  .div-do-gif {
+    text-align: center;
+    margin-top: -11vw;
+  }
+  .button {
+    width: 50vw;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .banner {
+    margin-top: 38vw;
+    background-color: #06bce193;
+    padding-bottom: 18px;
+}
+  }
+  .nomes-devs {
+    font-size: 2.7vh;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+
+

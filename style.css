@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+@import url("style-media-query.css");
+/* Reset */
+* {
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Play", sans-serif;
+}
+
+/* Cor da pag */
+body {
+  background: url(img/espaco.jpg);
+  background-size: contain;
+  background-position: top;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+  cursor: default;
+}
+/* animação no mome rick and morty */
+h2 {
+    color: #484848;
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: "Play", sans-serif;
+    letter-spacing: 7px;
+    cursor: pointer
+  }
+  h2 span{
+    transition: .5s linear
+  }
+  h2:hover span:nth-child(1){
+    margin-right: 15px
+  }
+
+  
+  h2:hover span:nth-child(2){
+    margin-left: 15px
+  }
+  h2:hover span{
+    color: #8bfac6;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff, 
+                 0 0 40px #fff;
+  }
+
+p {
+  font-size: 2vw;
+  color: white;
+  text-align: left;
+  cursor: default;
+  letter-spacing: 0.5px;
+}
+
+/* posição dos textos */
+.text {
+  
+    width: 90%;
+    height: 40%;
+    margin-left: 30px;
+    margin-top: 12vw;
+    margin-bottom: 8vh;
+    display: flex;
+    padding-left: 5%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+  
+}
+
+
+
+
+/* Tamanho e estilo do gif */
+.div-do-gif {
+  text-align: left;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+.gif {
+  height: 50%;
+  width: 60%;
+  border: 6px solid rgba(128, 0, 128, 0.687);
+  border-radius: 20px;
+}
+
+.button {
+  width: 20%;
+  padding: 15px 5px;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  color: black;
+  background: #00ff88;
+  cursor: pointer;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
+  text-align: center;
+  margin-top: 5%;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #8bfac6;
+  text-shadow: none;
+}
+
+
+
+
+/* DIV COM NOMES DAS DEVELOPERS */
+.banner {
+  justify-content: center;
+  display: inline-block;
+  text-align: center;
+  background-color: rgba(128, 0, 128, 0.516);
+  margin-top: 12vw;
+  width: 100%;
+  padding-bottom: 3vw;
+  height: 100%;
+}
+.nomes-devs {
+  margin-top: 5vw;
+  margin-bottom: 3vw;
+  color: rgba(245, 245, 245, 0.564);
+  font-family: "Play", sans-serif;
+  letter-spacing: 1px;
+  font-size: 4vw;
+}
+.imagem-contato {
+  display: inline-block;
+  border-radius: 100px;
+  width: 6vw;
+  text-align: center;
+}
+
+ 

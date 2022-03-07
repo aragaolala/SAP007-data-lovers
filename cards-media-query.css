@@ -1,0 +1,158 @@
+/* TELAS GRANDES */
+@media (min-width: 1001px) {
+  .nav-filtros {
+    padding-bottom: 0px;
+  }
+  .pesquisar {
+    width: 30%;
+  }
+  .fixed-button {
+    width: 11vw;
+    height: 12vw
+  }
+}
+/* MEDIA TABLET */
+@media (min-width: 601px) and (max-width: 1000px) {
+  body {
+    background: url(img/espaco4.png);
+  }
+  .buscar-e-limpar {
+    display: flex;
+    margin-top: 5%;
+  }
+  .cards-container {
+    margin-top: 80px;
+  }
+  .filtros {
+    width: 50%;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    background: transparent;
+    border: 1.5px solid purple;
+    margin: 1%;
+    padding-left: 1%;
+  }
+  .nav-filtros {
+    border: none;
+    height: auto;
+  }
+  .pesquisar {
+    width: 30%;
+    
+    margin-right: 17px;
+  }
+  .form {
+    justify-content: center;
+    display: block;
+    text-align: center;
+  }
+  .fixed-button {
+    width: 13vw;
+    height: 14vw;
+  }
+}
+
+/* MEDIA CELULAR */
+@media screen and (max-width: 600px) {
+  img {
+    width: 260px;
+  }
+  body {
+    background: url(img/espaco4.png);
+  }
+  header {
+    align-content: center;
+    justify-content: center;
+  }
+  .banner {
+    display: flex;
+    text-align: center;
+  }
+  .nomes-devs {
+    padding-top: 8%;
+    padding-bottom: 5%;
+    color: rgba(245, 245, 245, 0.47);
+  }
+  .logo {
+    margin-top: 70px;
+    display: flex;
+    width: 50%;
+  }
+
+  .nav-filtros {
+    border: none;
+    padding-bottom: 5%;
+    height: 0;
+    align-content: center;
+    display: block;
+    justify-content: center;
+  }
+
+  .filtros {
+    width: 63vw;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    background: transparent;
+    border: 1.5px solid purple;
+    padding-left: 1%;
+  }
+  .fitros,
+  .filtro-alfa {
+    width: 150px;
+  }
+  .buscar-e-limpar {
+    display: grid;
+    margin-top: 216px;
+    /* coloquei tam fixo pq estava mudando com as quebras do media */
+  }
+  .pesquisar {
+    height: 50px;
+    margin-right: 0px;
+    width: 63vw;;
+    padding-left: 2vw;
+  }
+  .button {
+    margin-top: 10px;
+    width: 63vw;;
+  }
+  .cards-container {
+    margin-top: 100px;
+  }
+  .card-info {
+    width: 70%;
+    height: 5%;
+  }
+
+  .form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .fixed-button {
+    width: 17vw;
+    height: 19vw;
+  }
+}
+/* AJUSTES PARA TELAS PEQUENAS */
+@media screen and (max-width: 450px) {
+  .filtros {
+    width: 63vw;;
+  }
+  .cards-container {
+    margin-top: 60px;
+  }
+  .calculo {
+    margin-top: 50px;
+  }
+  .nomes-devs {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .card-info {
+    height: 24em;
+    width: 76vw;
+  }
+  .p-lista {
+    
+  }
+}

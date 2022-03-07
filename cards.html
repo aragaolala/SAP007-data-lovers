@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cards.css" />
+    <link rel="stylesheet" href="cards-media-query.css" />
+    <title>Portal</title>
+  </head>
+  <body>
+    <header id="top">
+      <div class="banner">
+        <p class="nomes-devs">
+          Desenvolvido por Layssa Aragão e Daiane Oltramari
+        </p>
+      </div>
+      <div class="logo">
+        <img class="imagem-header" src="img/rickandmorty.png" alt="RickAndMorty"/>
+      </div>
+    </header>
+
+    <nav class="nav-filtros">
+      <select name="" title="filtros-genero" class="filtros" id="gender-filter">
+        <option value="" selected hidden>Gênero</option>
+        <option value="male">Masculino</option>
+        <option value="female">Feminino</option>
+        <option value="unknown">Desconhecido</option>
+      </select>
+      <select title="filtros-stat" class="filtros" id="status-filter">
+        <option value="" selected hidden>Status</option>
+        <option value="alive">Vivo</option>
+        <option value="dead">Morto</option>
+        <option value="unknown">Desconhecido</option>
+      </select>
+      <select title="filtros-espec" class="filtros" id="species-filter">
+        <option value="" selected hidden>Espécie</option>
+        <option value="alien">Alien</option>
+        <option value="animal">Animal</option>
+        <option value="cronenberg">Cronenberg</option>
+        <option value="disease">Doença</option>
+        <option value="human">Humano</option>
+        <option value="humanoid">Humanóide</option>
+        <option value="mytholog">Mytholog</option>
+        <option value="parasite">Parasita</option>
+        <option value="poopybutthole">Poopybutthole</option>
+        <option value="robot">Robô</option>
+        <option value="vampire">Vampiro</option>
+        <option value="unknown">Desconhecido</option>
+      </select>
+      <select
+        title="filtros-alfab"
+        class="filtros"
+        id="alfa-order-filter"
+      >
+        <option value="" selected hidden>Ordenar</option>
+        <option value="a-z">A - Z</option>
+        <option value="z-a">Z - A</option>
+      </select>
+      
+    </nav>
+
+    <div class="form">
+      <form class="buscar-e-limpar">
+        <input class="pesquisar" id="text-search" type="search" placeholder="Buscar nome" />
+        <input type="reset" id="clearFiltros" class="button" onclick="window.location.reload()" value="Limpar Filtros">
+      </form>
+  
+    </div>
+    <p class="calculo" id="porcentagem-filtro"></p>
+    <!--calculo de porcentagem -->
+    <a href="#top"><img src="img/rickandmorty-redondo.png" class="fixed-button" alt="ricky"></a>
+    
+    <main>
+      
+      <section>
+        <div class="cards-container" id="container-dos-cards"></div>
+        <!--Os cards serão printados a partir da função no main.js / 
+        invocamos o .map e passamos uma função dentro do seu argumento -->
+      </section>
+    </main>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
+
+
