@@ -1,6 +1,6 @@
 export const filtroGenero = (dados, condition) => {
   const resultadoGenero = dados.filter(
-    (character) => character.gender.toLowerCase() === condition.toLowerCase()
+    (character) => character.gender === condition
   );
 
   return resultadoGenero;
@@ -13,14 +13,14 @@ export const calcularPorcentagem = (total, fractionItem) => {
 
 export const statusFilter = (dados, condition) => {
   const statusResult = dados.filter(
-    (character) => character.status.toLowerCase() === condition.toLowerCase()
+    (character) => character.status === condition
   );
   return statusResult;
 };
 
 export const speciesFilter = (dados, condition) => {
   const speciesResult = dados.filter(
-    (character) => character.species.toLowerCase() === condition.toLowerCase()
+    (character) => character.species === condition
   );
   return speciesResult;
 };
