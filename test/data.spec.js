@@ -9,9 +9,9 @@ import {
 
 const Personagens = [
   {
-    name: "Bearded Lady",
-    status: "Dead",
-    species: "Alien",
+    name: "Summer Smith",
+    status: "Alive",
+    species: "Human",
     gender: "Female",
   },
   {
@@ -42,9 +42,8 @@ describe("filtroGenero", () => {
   });
 
   it("Deverá filtrar pelo gênero Female", () => {
-    const genderFemale = "Female";
-    const expected = filtroGenero(Personagens, genderFemale);
-    expect(expected[0].gender).toEqual(genderFemale);
+    const expected = filtroGenero(Personagens, "Female");
+    expect(expected).toEqual([{"gender": "Female", "name": "Summer Smith", "species": "Human", "status": "Alive"}]);
   });
 });
 
@@ -68,16 +67,9 @@ describe("statusFilter", () => {
     expect(typeof statusFilter).toBe("function");
   });
 
-  it("Deverá filtrar pelo status Alive", () => {
-    const statusAlive = "Alive";
-    const expected = statusFilter(Personagens, statusAlive);
-    expect(expected[0].status).toEqual(statusAlive);
-  });
-
   it("Deverá filtrar pelo status Dead", () => {
-    const statusDead = "Dead";
-    const expected = statusFilter(Personagens, statusDead);
-    expect(expected[0].status).toEqual(statusDead);
+    const expected = statusFilter(Personagens, "Dead");
+    expect(expected).toEqual([{status: "Dead",name: "Boobloosian",species: "Alien",gender: "unknown"}]);
   });
 });
 
@@ -88,10 +80,9 @@ describe("speciesFilter", () => {
     expect(typeof speciesFilter).toBe("function");
   });
 
-  it("Deverá filtrar pela espécie Human", () => {
-    const speciesHuman = "Human";
-    const expected = speciesFilter(Personagens, speciesHuman);
-    expect(expected[0].species).toEqual(speciesHuman);
+  it("Deverá filtrar pela espécie Alien", () => {
+    const expected = speciesFilter(Personagens, "Alien");
+    expect(expected).toEqual([{status: "Dead",name: "Boobloosian",species: "Alien",gender: "unknown"}]);
   });
 });
 
