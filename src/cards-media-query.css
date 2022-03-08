@@ -74,7 +74,8 @@
     color: rgba(245, 245, 245, 0.47);
   }
   .logo {
-    margin-top: 70px;
+    margin-bottom: 29px;
+    margin-top: 24px;
     display: flex;
     width: 50%;
   }

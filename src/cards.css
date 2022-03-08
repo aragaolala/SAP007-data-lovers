@@ -201,7 +201,7 @@ select {
   color: rgba(245, 245, 245, 0.564);
   font-family: "Play", sans-serif;
   letter-spacing: 1px;
-  font-size: 15px;
+  font-size: 12px;
 }
 .fixed-button {
   position: fixed;
