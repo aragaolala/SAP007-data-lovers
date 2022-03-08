@@ -10,10 +10,9 @@ import {
 import dados from "./data/rickandmorty/rickandmorty.js";
 
 function printarCards(dados) {
-  document.getElementById("container-dos-cards").innerHTML = dados //innerHTML para escrever o resultado no doc hmtl. Adiciona html (as tags abaixo) e texto.
+  document.getElementById("container-dos-cards").innerHTML = dados
     .map(
       (item) => ` 
-   
       <div class="card-info">
         <img src="${item.image}">
         <div class="info-lista">
@@ -25,8 +24,7 @@ function printarCards(dados) {
             <p class="p-lista"><strong>Localização: </strong>${item.location.name}</p><br>
             <p class="p-lista"><strong>Aparece em: </strong>${item.episode.length} episódios</p><br>
         </div> 
-     </div>
-    
+     </div>  
   `
     )
     .join("");
@@ -42,14 +40,13 @@ const orderSelectAz = document.getElementById("alfa-order-filter");
 const texto = document.getElementById("porcentagem-filtro");
 const buscaNomePersonagem = document.getElementById("text-search");
 
-///// FUNÇOES
 function mostrarPorcentagem(dados) {
   texto.innerHTML = `Essa categoria representa ${dados}`;
 }
 
 function imprimirFiltroGenero(e) {
   const resultadoGenero = filtroGenero(dados.results, e.target.value);
-  //e.target.value -> esse evento vai atrás do "alvo" selecionado no input do select
+
   const porcentagemText = `${calcularPorcentagem(
     dados.results.length,
     resultadoGenero.length
@@ -58,13 +55,6 @@ function imprimirFiltroGenero(e) {
   return printarCards(resultadoGenero);
 }
 selecaoGenero.addEventListener("change", imprimirFiltroGenero);
-/* 
-- Quem faz aparecer na tela é o "change"
-"change" -> esse evento aplica alguma mudança após selecionar um valor no select e 
-devolve para a tela essa mudança 
-- Aqui o "escutador / listener" vai chamar a função "imprimirFiltroGenero" sempre que houver
-a "seleçãoGenero" (que recebe um valor html - quando o user manipular o filtro do genero)
-*/
 
 function printStatusFilter(e) {
   const statusResult = statusFilter(dados.results, e.target.value);
@@ -94,21 +84,8 @@ function printOrderFilterAz(e) {
 }
 orderSelectAz.addEventListener("change", printOrderFilterAz);
 
-// BUSCAR NOMES PERSONAGENS
 function buscarNomePersonagens(e) {
   const nomePersonagens = searchName(dados.results, e.target.value);
   return printarCards(nomePersonagens);
 }
 buscaNomePersonagem.addEventListener("keyup", buscarNomePersonagens);
-// keyup pega o valor de cada tecla que o usuário clicar
-
-/* esse arquivo é o DOM - está em interação com o htlm
-
-- e.target.value = ele quem vai buscar os valores alvos definidos no selector pelo user
-- vai atrás do valor inserido e retorna o próprio elemento que disparou o evento
-
-- addEventListener = O método addEventListener anexa um manipulador de eventos 
-(event handler) a um elemento. No caso, ele vai anexar a função “imprimirFiltroGenero” 
-à constante “selecaoGenero”, que é um elemento HTML (getElementoById).
-- 
-*/

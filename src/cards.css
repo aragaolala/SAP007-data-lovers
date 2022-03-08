@@ -33,7 +33,7 @@ select {
   font-size: 17px;
   border: 1px solid;
   font-family: "Play", sans-serif;
-  
+
   position: relative;
 }
 
@@ -203,10 +203,9 @@ select {
 }
 .fixed-button {
   position: fixed;
-    width: 19vw;
-    height: 21vw;
-    bottom: 0;
-    right: 0px;
-    margin-bottom: 58px;
+  width: 19vw;
+  height: 21vw;
+  bottom: 0;
+  right: 0px;
+  margin-bottom: 58px;
 }
-
