@@ -23,7 +23,7 @@ Por meio do site, o usuário tem a experiência de navegar pelo o universo dos s
 
 Para fornecer tal experiência, utilizamos o consumo e manipulação da API rickandmorty.js.
 
----
+![Boas Vindas](https://media.giphy.com/media/BZ2ASxIUUljjtSkwoD/giphy.gif)
 
 ## 2. Usuário
 
@@ -45,7 +45,7 @@ Aqui acrescentamos em cima do card uma animação com as informações.
 
 Utiizamos um formulário para identicar quais filtros seriam interessantes para os fãs. Os 4 principais foram: gênero, status, espécie e ordenação alfabética.
 
-![Teste usabilidade](https://media.giphy.com/media/DikbKy2JcdkgWC1Qzr/giphy.gif)
+![Pesquisa de usuário](https://media.giphy.com/media/DikbKy2JcdkgWC1Qzr/giphy.gif)
 
 #### 3.4 O usuário quer buscar pelo nome
 
@@ -115,6 +115,6 @@ Os testes unitários foram desenvolvidos para fazer com que o projeto rode adequ
 
 ## 9. Desenvolvedoras
 
-<h2 align="center"><a style="color:purple" href="https://github.com/lalaonde" target="_blank">Layssa Aragão</a> e <a style="color:purple" href="https://github.com/daianeoltramari">Daiane Oltramari</a></h2>
+<h2><a style="color:purple" href="https://github.com/lalaonde" target="_blank">Layssa Aragão</a> e <a style="color:purple" href="https://github.com/daianeoltramari">Daiane Oltramari</a></h2>
 
-![Final](https://media.giphy.com/media/cOKjNdJDbqNCm4n0Jm/giphy.gif)
+![Final](https://media.giphy.com/media/Qs0QEnugOy0xIsFkpD/giphy.gif)
