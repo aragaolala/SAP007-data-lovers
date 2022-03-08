@@ -23,7 +23,9 @@ Por meio do site, o usuário tem a experiência de navegar pelo o universo dos s
 
 Para fornecer tal experiência, utilizamos o consumo e manipulação da API rickandmorty.js.
 
+
 ![Boas Vindas](https://media.giphy.com/media/BZ2ASxIUUljjtSkwoD/giphy.gif)
+![Pagina boas vindas](https://media.giphy.com/media/Qtacv6vkkiUE4udtEG/giphy.gif)
 
 ## 2. Usuário
 
@@ -109,7 +111,7 @@ Os testes unitários foram desenvolvidos para fazer com que o projeto rode adequ
 
 ## 8. Resultado
 
-6.1 Celulares e tablets
+8.1 Celulares e tablets
 
 ## ![Final](https://media.giphy.com/media/Qtacv6vkkiUE4udtEG/giphy.gif)
 
