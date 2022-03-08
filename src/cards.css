@@ -47,8 +47,8 @@ select {
   margin: auto;
   width: 70%;
   justify-content: center;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 /* ESTILO DA NAV QUE CONTÉM OS SELETORES */
@@ -79,7 +79,6 @@ select {
 .buscar-e-limpar {
   display: flex;
   justify-content: center;
- 
 }
 
 /* CAMPO PESQUISAR */
@@ -193,7 +192,6 @@ select {
   justify-content: center;
   display: flex;
   text-align: center;
-  
 }
 .nomes-devs {
   padding-top: 4vw;
