@@ -27,6 +27,7 @@ Para fornecer tal experiência, utilizamos o consumo e manipulação da API rick
 ![Boas Vindas](https://media.giphy.com/media/BZ2ASxIUUljjtSkwoD/giphy.gif)
 ![Pagina boas vindas](https://media.giphy.com/media/Qtacv6vkkiUE4udtEG/giphy.gif)
 
+___
 ## 2. Usuário
 
 Ao navegar pelas redes sociais, grupos de interação e hashtags, percebemos que, claro, exsitem muitas informações acerca do desenho, no entanto dispersas. Por isso, afim de concentrar os dados num único local, como uma biblioteca, e facilitar a vida dos fãs, idealizamos o "Portal Rick and Morty".
