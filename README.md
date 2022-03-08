@@ -9,9 +9,8 @@
 - [5. Testes unitários](#5-testes-unitários)
 - [6. Tecnologias](#6-tecnologias)
 - [7. Considerações técnicas](#7-considerações-técnicas)
-- [8. Pistas, dicas e leituras
-  complementares](#8-pistas-dicas-e-leituras-complementares)
-- [9. Checklist](#9-checklist)
+- [8. Resultado](#8-resultado)
+- [9. Desenvolvedoras](#9-desenvolvedoras)
 
 ---
 

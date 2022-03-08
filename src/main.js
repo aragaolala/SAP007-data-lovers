@@ -48,7 +48,7 @@ function mostrarPorcentagem(dados) {
 }
 
 function imprimirFiltroGenero(e) {
-  const resultadoGenero = filtroGenero(dados.results, e.target.value); 
+  const resultadoGenero = filtroGenero(dados.results, e.target.value);
   //e.target.value -> esse evento vai atrás do "alvo" selecionado no input do select
   const porcentagemText = `${calcularPorcentagem(
     dados.results.length,
@@ -58,9 +58,13 @@ function imprimirFiltroGenero(e) {
   return printarCards(resultadoGenero);
 }
 selecaoGenero.addEventListener("change", imprimirFiltroGenero);
-/* ESCUTADOR DEVOLVE O RESULTADO DA FUNCAO PARA O SELETOR e quem faz aparecer na tela é o "change"
+/* 
+- Quem faz aparecer na tela é o "change"
 "change" -> esse evento aplica alguma mudança após selecionar um valor no select e 
-devolve para a tela essa mudança */
+devolve para a tela essa mudança 
+- Aqui o "escutador / listener" vai chamar a função "imprimirFiltroGenero" sempre que houver
+a "seleçãoGenero" (que recebe um valor html - quando o user manipular o filtro do genero)
+*/
 
 function printStatusFilter(e) {
   const statusResult = statusFilter(dados.results, e.target.value);
@@ -95,7 +99,7 @@ function buscarNomePersonagens(e) {
   const nomePersonagens = searchName(dados.results, e.target.value);
   return printarCards(nomePersonagens);
 }
-buscaNomePersonagem.addEventListener("keyup", buscarNomePersonagens); 
+buscaNomePersonagem.addEventListener("keyup", buscarNomePersonagens);
 // keyup pega o valor de cada tecla que o usuário clicar
 
 /* esse arquivo é o DOM - está em interação com o htlm
@@ -106,6 +110,5 @@ buscaNomePersonagem.addEventListener("keyup", buscarNomePersonagens);
 - addEventListener = O método addEventListener anexa um manipulador de eventos 
 (event handler) a um elemento. No caso, ele vai anexar a função “imprimirFiltroGenero” 
 à constante “selecaoGenero”, que é um elemento HTML (getElementoById).
-- aqui o "escutador / listener" vai chamar a função "imprimirFiltroGenero" sempre que houver
-a "seleçãoGenero" (que recebe um valor html - quando o user manipular o filtro do genero)
+- 
 */

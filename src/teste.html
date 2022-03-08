@@ -16,11 +16,7 @@
         </p>
       </div>
       <div class="logo">
-        <img
-          class="imagem-header"
-          src="img/rickandmorty.png"
-          alt="RickAndMorty"
-        />
+        <img class="imagem-header" src="img/rickandmorty.png" alt="RickAndMorty"/>
       </div>
     </header>
 
@@ -52,37 +48,31 @@
         <option value="vampire">Vampiro</option>
         <option value="unknown">Desconhecido</option>
       </select>
-      <select title="filtros-alfab" class="filtros" id="alfa-order-filter">
+      <select
+        title="filtros-alfab"
+        class="filtros"
+        id="alfa-order-filter"
+      >
         <option value="" selected hidden>Ordenar</option>
         <option value="a-z">A - Z</option>
         <option value="z-a">Z - A</option>
       </select>
+      
     </nav>
 
     <div class="form">
       <form class="buscar-e-limpar">
-        <input
-          class="pesquisar"
-          id="text-search"
-          type="search"
-          placeholder="Buscar nome"
-        />
-        <input
-          type="reset"
-          id="clearFiltros"
-          class="button"
-          onclick="window.location.reload()"
-          value="Limpar Filtros"
-        />
+        <input class="pesquisar" id="text-search" type="search" placeholder="Buscar nome" />
+        <input type="reset" id="clearFiltros" class="button" onclick="window.location.reload()" value="Limpar Filtros">
       </form>
+  
     </div>
     <p class="calculo" id="porcentagem-filtro"></p>
     <!--calculo de porcentagem -->
-    <a href="#top"
-      ><img src="img/rickandmorty-redondo.png" class="fixed-button" alt="ricky"
-    /></a>
-
+    <a href="#top"><img src="img/rickandmorty-redondo.png" class="fixed-button" alt="ricky"></a>
+    
     <main>
+      
       <section>
         <div class="cards-container" id="container-dos-cards"></div>
         <!--Os cards serão printados a partir da função no main.js / 
@@ -92,3 +82,5 @@
     <script src="main.js" type="module"></script>
   </body>
 </html>
+
+
