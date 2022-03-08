@@ -23,7 +23,9 @@ Por meio do site, o usuário tem a experiência de navegar pelo o universo dos s
 
 Para fornecer tal experiência, utilizamos o consumo e manipulação da API rickandmorty.js.
 
----
+
+![Boas Vindas](https://media.giphy.com/media/BZ2ASxIUUljjtSkwoD/giphy.gif)
+![Pagina boas vindas](https://media.giphy.com/media/Qtacv6vkkiUE4udtEG/giphy.gif)
 
 ## 2. Usuário
 
@@ -45,6 +47,8 @@ Aqui acrescentamos em cima do card uma animação com as informações.
 
 Utiizamos um formulário para identicar quais filtros seriam interessantes para os fãs. Os 4 principais foram: gênero, status, espécie e ordenação alfabética.
 
+![Pesquisa de usuário](https://media.giphy.com/media/DikbKy2JcdkgWC1Qzr/giphy.gif)
+
 #### 3.4 O usuário quer buscar pelo nome
 
 Como existem 493 personagens, pode ser difícil achar sua personagem favorita. Portanto, para facilitar a usabilidade, inserimos um campo de busca.
@@ -65,23 +69,26 @@ Inserimos um botão "limpar filtros".
 
 4.1.1 Página de boas vindas
 
-<img alt="Paleta de cores" src="prot-baixa1.png" width="350px">
+<img alt="Protótipo baixa fidelidade" src="img-readme/prot-baixa1.png" width="350px">
+
+4.1.2 Página principal
+<img alt="Protótipo baixa fidelidade" src="img-readme/prot-baixa2.png" width="350px">
 
 ### 4.2 Protótipo de alta fidelidade
 
 4.2.1 Página de boas vindas
 
-<img alt="Paleta de cores" src="prot-alta-fide2.png" width="400px">
+<img alt="Protótipo alta fidelidade" src="img-readme/prot-alta-fide2.png" width="400px">
 
 4.2.2 Página principal com os Cards
 
-<img alt="Paleta de cores" src="prot-alta-fide1.png" width="350px">
+<img alt="Protótipo alta fidelidade" src="img-readme/prot-alta-fide1.png" width="350px">
 
 ### 4.3 Paleta de cores
 
 Uitlizamos o site coolors.com para sua criação.
 
-<img alt="Paleta de cores" src="paleta.png" width="250px">
+<img alt="Paleta de cores" src="img-readme/paleta.png" width="250px">
 
 ---
 
@@ -89,9 +96,14 @@ Uitlizamos o site coolors.com para sua criação.
 
 Os testes unitários foram desenvolvidos para fazer com que o projeto rode adequadamente, nele você consegue verificar se cada função está dando o retorno esperado.
 
----
+___
+## 6. Teste de usabilidade
+Após a primeira pesquisa com potenciais usuários e mapeamento das suas necessidades enquanto fãs, e consequentemente a construção das histórias do usuário, criamos também um formulário para os fãs deixarem seu feedback após testarem o site.
 
-## 6. Tecnologias
+## ![Teste usabilidade](https://media.giphy.com/media/0RqzPU7aT3kLHpR0jr/giphy.gif)
+
+___
+## 7. Tecnologias
 
 ![Getting Started](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
 
@@ -103,14 +115,14 @@ Os testes unitários foram desenvolvidos para fazer com que o projeto rode adequ
 
 [![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff)](https://code.visualstudio.com/)
 
-## 7. Resultado
+## 8. Resultado
 
-6.1 Celulares e tablets
+8.1 Celulares e tablets
 
----
+## ![Final](https://media.giphy.com/media/Qtacv6vkkiUE4udtEG/giphy.gif)
 
-## 8. Desenvolvedoras
+## 9. Desenvolvedoras
 
-<h2 align="center"><a style="color:purple" href="https://github.com/lalaonde" target="_blank">Layssa Aragão</a> e <a style="color:purple" href="https://github.com/daianeoltramari">Daiane Oltramari</a></h2>
+<h2><a style="color:purple" href="https://github.com/lalaonde" target="_blank">Layssa Aragão</a> e <a style="color:purple" href="https://github.com/daianeoltramari">Daiane Oltramari</a></h2>
 
-![Final](https://media.giphy.com/media/cOKjNdJDbqNCm4n0Jm/giphy.gif)
+![Final](https://media.giphy.com/media/Qs0QEnugOy0xIsFkpD/giphy.gif)
