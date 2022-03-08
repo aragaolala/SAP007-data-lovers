@@ -33,7 +33,7 @@ select {
   font-size: 17px;
   border: 1px solid;
   font-family: "Play", sans-serif;
-
+  backdrop-filter: blur(5px);
   position: relative;
 }
 
@@ -47,8 +47,8 @@ select {
   margin: auto;
   width: 70%;
   justify-content: center;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 /* ESTILO DA NAV QUE CONTÉM OS SELETORES */
@@ -72,13 +72,14 @@ select {
   padding-right: 1%;
   border: 1.8px solid purple;
   font-family: "Play", sans-serif;
+  backdrop-filter: blur(5px);
 }
 
 /* FORM QUE CONTÉM O PESQUISAR E LIMPAR */
 .buscar-e-limpar {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+ 
 }
 
 /* CAMPO PESQUISAR */
@@ -92,6 +93,7 @@ select {
   width: 100%;
   text-align: left;
   padding-left: 1%;
+  backdrop-filter: blur(5px);
 }
 /* TEXTO QUE ESTÁ DENTRO DO CAMPO PESQUISAR */
 :placeholder {
@@ -191,10 +193,10 @@ select {
   justify-content: center;
   display: flex;
   text-align: center;
-  background-color: rgba(128, 0, 128, 0.516);
+  
 }
 .nomes-devs {
-  padding-top: 5%;
+  padding-top: 4vw;
   padding-bottom: 5%;
   color: rgba(245, 245, 245, 0.564);
   font-family: "Play", sans-serif;
