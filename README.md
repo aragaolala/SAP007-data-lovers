@@ -1,5 +1,3 @@
-# Data Lovers
-
 ## Índice
 
 - [1. Projeto 2 - Data Lovers](#1-projeto-2-data-lovers)
@@ -97,4 +95,17 @@ Uitlizamos o site coolors.com para sua criação.
 [![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff)](https://code.visualstudio.com/)
 
 ### 6. Resultado
-6.1 Celulares e tablets
+#### 6.1 Celulares e tablets
+
+<img alt="Paleta de cores" src="resultado-mobile.png" width="200px">
+
+<img alt="Paleta de cores" src="resultado-mobile6.png" width="200px">
+<img alt="Paleta de cores" src="resultado-mobile5.png" width="200px">
+
+#### 6.2 Monitores
+
+<img alt="Paleta de cores" src="resultado-monitor.png" width="400px">
+
+<img alt="Paleta de cores" src="resultado-monitor2.png" width="400px">
+<img alt="Paleta de cores" src="resultado-monitor4.png" width="400px">
+ß
