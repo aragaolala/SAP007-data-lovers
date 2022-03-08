@@ -1,3 +1,5 @@
+# Data Lovers
+
 ## Índice
 
 - [1. Projeto 2 - Data Lovers](#1-projeto-2-data-lovers)
@@ -21,7 +23,7 @@ Por meio do site, o usuário tem a experiência de navegar pelo o universo dos s
 
 Para fornecer tal experiência, utilizamos o consumo e manipulação da API rickandmorty.js.
 
----
+![Boas Vindas](https://media.giphy.com/media/BZ2ASxIUUljjtSkwoD/giphy.gif)
 
 ## 2. Usuário
 
@@ -42,6 +44,8 @@ Aqui acrescentamos em cima do card uma animação com as informações.
 #### 3.3 O usuário quer navegar nas informações e fazer buscas específicas, por meio de filtros.
 
 Utiizamos um formulário para identicar quais filtros seriam interessantes para os fãs. Os 4 principais foram: gênero, status, espécie e ordenação alfabética.
+
+![Pesquisa de usuário](https://media.giphy.com/media/DikbKy2JcdkgWC1Qzr/giphy.gif)
 
 #### 3.4 O usuário quer buscar pelo nome
 
@@ -87,9 +91,11 @@ Uitlizamos o site coolors.com para sua criação.
 
 Os testes unitários foram desenvolvidos para fazer com que o projeto rode adequadamente, nele você consegue verificar se cada função está dando o retorno esperado.
 
----
+## 6. Teste de usabilidade
 
-## 6. Tecnologias
+## ![Teste usabilidade](https://media.giphy.com/media/0RqzPU7aT3kLHpR0jr/giphy.gif)
+
+## 7. Tecnologias
 
 ![Getting Started](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
 
@@ -101,33 +107,14 @@ Os testes unitários foram desenvolvidos para fazer com que o projeto rode adequ
 
 [![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff)](https://code.visualstudio.com/)
 
-<<<<<<< HEAD
-### 6. Resultado
-#### 6.1 Celulares e tablets
-
-<img alt="Paleta de cores" src="resultado-mobile.png" width="200px">
-
-<img alt="Paleta de cores" src="resultado-mobile6.png" width="200px">
-<img alt="Paleta de cores" src="resultado-mobile5.png" width="200px">
-
-#### 6.2 Monitores
-
-<img alt="Paleta de cores" src="resultado-monitor.png" width="400px">
-
-<img alt="Paleta de cores" src="resultado-monitor2.png" width="400px">
-<img alt="Paleta de cores" src="resultado-monitor4.png" width="400px">
-ß
-=======
-## 7. Resultado
+## 8. Resultado
 
 6.1 Celulares e tablets
 
----
+## ![Final](https://media.giphy.com/media/Qtacv6vkkiUE4udtEG/giphy.gif)
 
-## 8. Desenvolvedoras
+## 9. Desenvolvedoras
 
-<h2 align="center"><a style="color:purple" href="https://github.com/lalaonde" target="_blank">Layssa Aragão</a> e <a style="color:purple" href="https://github.com/daianeoltramari">Daiane Oltramari</a></h2>
+<h2><a style="color:purple" href="https://github.com/lalaonde" target="_blank">Layssa Aragão</a> e <a style="color:purple" href="https://github.com/daianeoltramari">Daiane Oltramari</a></h2>
 
-![Final](https://media.giphy.com/media/cOKjNdJDbqNCm4n0Jm/giphy.gif)
->>>>>>> 91caeabd5df58c2494ae4522aa35b25c10ee5abd
-<img alt="Paleta de cores" src="pesquisar-user.gif">
+![Final](https://media.giphy.com/media/Qs0QEnugOy0xIsFkpD/giphy.gif)
