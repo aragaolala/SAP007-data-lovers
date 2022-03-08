@@ -69,23 +69,26 @@ Inserimos um botão "limpar filtros".
 
 4.1.1 Página de boas vindas
 
-<img alt="Paleta de cores" src="prot-baixa1.png" width="350px">
+<img alt="Protótipo baixa fidelidade" src="img-readme/prot-baixa1.png" width="350px">
+
+4.1.2 Página principal
+<img alt="Protótipo baixa fidelidade" src="img-readme/prot-baixa2.png" width="350px">
 
 ### 4.2 Protótipo de alta fidelidade
 
 4.2.1 Página de boas vindas
 
-<img alt="Paleta de cores" src="prot-alta-fide2.png" width="400px">
+<img alt="Protótipo alta fidelidade" src="img-readme/prot-alta-fide2.png" width="400px">
 
 4.2.2 Página principal com os Cards
 
-<img alt="Paleta de cores" src="prot-alta-fide1.png" width="350px">
+<img alt="Protótipo alta fidelidade" src="img-readme/prot-alta-fide1.png" width="350px">
 
 ### 4.3 Paleta de cores
 
 Uitlizamos o site coolors.com para sua criação.
 
-<img alt="Paleta de cores" src="paleta.png" width="250px">
+<img alt="Paleta de cores" src="img-readme/paleta.png" width="250px">
 
 ---
 
@@ -93,10 +96,13 @@ Uitlizamos o site coolors.com para sua criação.
 
 Os testes unitários foram desenvolvidos para fazer com que o projeto rode adequadamente, nele você consegue verificar se cada função está dando o retorno esperado.
 
+___
 ## 6. Teste de usabilidade
+Após a primeira pesquisa com potenciais usuários e mapeamento das suas necessidades enquanto fãs, e consequentemente a construção das histórias do usuário, criamos também um formulário para os fãs deixarem seu feedback após testarem o site.
 
 ## ![Teste usabilidade](https://media.giphy.com/media/0RqzPU7aT3kLHpR0jr/giphy.gif)
 
+___
 ## 7. Tecnologias
 
 ![Getting Started](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
