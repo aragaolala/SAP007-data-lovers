@@ -45,10 +45,8 @@ select {
 .logo {
   display: flex;
   margin: auto;
-  width: 70%;
+  width: 50%;
   justify-content: center;
-  margin-top: 2%;
-  margin-bottom: 2%;
 }
 
 /* ESTILO DA NAV QUE CONTÉM OS SELETORES */
@@ -70,7 +68,7 @@ select {
   background-color: transparent;
   padding-left: 1%;
   padding-right: 1%;
-  border: 1.8px solid purple;
+  border: 2px solid purple;
   font-family: "Play", sans-serif;
   backdrop-filter: blur(5px);
 }
@@ -87,7 +85,7 @@ select {
   background: transparent;
   color: white;
   border-radius: 10px;
-  border: 1.5px solid purple;
+  border: 2px solid purple;
   margin-right: 50px;
   width: 100%;
   text-align: left;
@@ -122,7 +120,7 @@ select {
   flex-direction: row;
   margin-top: 100px;
   justify-items: flex-end;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
 }
 
 .card-info {
@@ -188,12 +186,12 @@ select {
 }
 
 /* DIV COM NOMES DAS DEVELOPERS */
-.banner {
+.bannr {
   justify-content: center;
   display: flex;
   text-align: center;
 }
-.nomes-devs {
+.devs {
   padding-top: 4vw;
   padding-bottom: 5%;
   color: rgba(245, 245, 245, 0.564);
@@ -205,7 +203,38 @@ select {
   position: fixed;
   width: 19vw;
   height: 21vw;
-  bottom: 0;
+  bottom: 0px;
   right: 0px;
-  margin-bottom: 58px;
+  opacity: 0.8;
+}
+
+/* DIV COM NOMES DAS DEVELOPERS */
+.banner {
+  justify-content: center;
+  display: inline-block;
+  text-align: center;
+  backdrop-filter: blur(5px);
+  margin-top: 12vw;
+  width: 100%;
+  padding-bottom: 3vw;
+  height: 100%;
+}
+.nomes-devs {
+  margin-top: 5vw;
+  margin-bottom: 3vw;
+  color: rgba(245, 245, 245, 0.564);
+  font-family: "Play", sans-serif;
+  letter-spacing: 1px;
+  font-size: 2vw;
+}
+.imagem-contato {
+  display: inline-block;
+  border-radius: 100px;
+  width: 6vw;
+  text-align: center;
+}
+span,
+a {
+  color: #00ff88;
+  text-decoration: none;
 }

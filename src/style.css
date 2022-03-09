@@ -124,3 +124,9 @@ p {
   width: 6vw;
   text-align: center;
 }
+
+span,
+a {
+  color: #00ff88;
+  text-decoration: none;
+}
