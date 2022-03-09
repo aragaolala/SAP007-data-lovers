@@ -1,7 +1,8 @@
 /* TELAS GRANDES */
-@media (min-width: 1001px) {
+@media (min-width: 1311px) {
   .nav-filtros {
     padding-bottom: 0px;
+    margin-top: 0vw;
   }
   .pesquisar {
     width: 30%;
@@ -9,6 +10,50 @@
   .fixed-button {
     width: 11vw;
     height: 12vw;
+  }
+  .filtros {
+    margin-right: 0px;
+    margin-left: 60px;
+  }
+  .cards-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+  }
+  .fixed-button {
+    width: 7vw;
+    height: 8vw;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1310px) {
+  .nav-filtros {
+    padding-bottom: 0px;
+    margin-top: 0vw;
+  }
+  .pesquisar {
+    width: 30%;
+  }
+  .fixed-button {
+    width: 11vw;
+    height: 12vw;
+  }
+  .filtros {
+    margin-right: 0px;
+    margin-left: 60px;
+  }
+  .cards-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+  }
+  .fixed-button {
+    width: 7vw;
+    height: 8vw;
   }
 }
 /* MEDIA TABLET */
