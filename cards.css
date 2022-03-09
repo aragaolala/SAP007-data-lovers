@@ -33,7 +33,7 @@ select {
   font-size: 17px;
   border: 1px solid;
   font-family: "Play", sans-serif;
-  
+  backdrop-filter: blur(5px);
   position: relative;
 }
 
@@ -47,8 +47,8 @@ select {
   margin: auto;
   width: 70%;
   justify-content: center;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 /* ESTILO DA NAV QUE CONTÉM OS SELETORES */
@@ -72,13 +72,13 @@ select {
   padding-right: 1%;
   border: 1.8px solid purple;
   font-family: "Play", sans-serif;
+  backdrop-filter: blur(5px);
 }
 
 /* FORM QUE CONTÉM O PESQUISAR E LIMPAR */
 .buscar-e-limpar {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
 }
 
 /* CAMPO PESQUISAR */
@@ -92,6 +92,7 @@ select {
   width: 100%;
   text-align: left;
   padding-left: 1%;
+  backdrop-filter: blur(5px);
 }
 /* TEXTO QUE ESTÁ DENTRO DO CAMPO PESQUISAR */
 :placeholder {
@@ -128,7 +129,6 @@ select {
   width: 280px;
   height: 360px;
   padding: 2rem 1rem;
-
   position: relative;
   display: flex;
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
@@ -149,7 +149,7 @@ select {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.55);
-  z-index: 2;
+  z-index: 2; /*se tirar perde o bkg preto */
   transition: 0.5s all;
   opacity: 0;
   border-radius: 10px;
@@ -192,22 +192,20 @@ select {
   justify-content: center;
   display: flex;
   text-align: center;
-  background-color: rgba(128, 0, 128, 0.516);
 }
 .nomes-devs {
-  padding-top: 5%;
+  padding-top: 4vw;
   padding-bottom: 5%;
   color: rgba(245, 245, 245, 0.564);
   font-family: "Play", sans-serif;
   letter-spacing: 1px;
-  font-size: 15px;
+  font-size: 12px;
 }
 .fixed-button {
   position: fixed;
-    width: 19vw;
-    height: 21vw;
-    bottom: 0;
-    right: 0px;
-    margin-bottom: 58px;
+  width: 19vw;
+  height: 21vw;
+  bottom: 0;
+  right: 0px;
+  margin-bottom: 58px;
 }
-
