@@ -8,7 +8,7 @@
   }
   .fixed-button {
     width: 11vw;
-    height: 12vw
+    height: 12vw;
   }
 }
 /* MEDIA TABLET */
@@ -38,7 +38,7 @@
   }
   .pesquisar {
     width: 30%;
-    
+
     margin-right: 17px;
   }
   .form {
@@ -64,7 +64,7 @@
     align-content: center;
     justify-content: center;
   }
-  .banner {
+  .bannr {
     display: flex;
     text-align: center;
   }
@@ -109,12 +109,12 @@
   .pesquisar {
     height: 50px;
     margin-right: 0px;
-    width: 63vw;;
+    width: 63vw;
     padding-left: 2vw;
   }
   .button {
     margin-top: 10px;
-    width: 63vw;;
+    width: 63vw;
   }
   .cards-container {
     margin-top: 100px;
@@ -137,7 +137,7 @@
 /* AJUSTES PARA TELAS PEQUENAS */
 @media screen and (max-width: 450px) {
   .filtros {
-    width: 63vw;;
+    width: 63vw;
   }
   .cards-container {
     margin-top: 60px;
@@ -145,7 +145,7 @@
   .calculo {
     margin-top: 50px;
   }
-  .nomes-devs {
+  .devs {
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -153,5 +153,4 @@
     height: 24em;
     width: 76vw;
   }
-  
 }
