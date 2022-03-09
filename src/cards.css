@@ -70,7 +70,7 @@ select {
   background-color: transparent;
   padding-left: 1%;
   padding-right: 1%;
-  border: 1.8px solid purple;
+  border: 2px solid purple;
   font-family: "Play", sans-serif;
   backdrop-filter: blur(5px);
 }
@@ -87,7 +87,7 @@ select {
   background: transparent;
   color: white;
   border-radius: 10px;
-  border: 1.5px solid purple;
+  border: 2px solid purple;
   margin-right: 50px;
   width: 100%;
   text-align: left;
