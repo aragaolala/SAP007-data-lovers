@@ -103,8 +103,8 @@ p {
 .banner {
   justify-content: center;
   display: inline-block;
+  backdrop-filter: blur(5px);
   text-align: center;
-  background-color: rgba(128, 0, 128, 0.516);
   margin-top: 12vw;
   width: 100%;
   padding-bottom: 3vw;
