@@ -47,7 +47,6 @@ select {
   margin: auto;
   width: 50%;
   justify-content: center;
-  margin-bottom: 2%;
 }
 
 /* ESTILO DA NAV QUE CONTÉM OS SELETORES */
@@ -206,6 +205,7 @@ select {
   height: 21vw;
   bottom: 0px;
   right: 0px;
+  opacity: 0.8;
 }
 
 /* DIV COM NOMES DAS DEVELOPERS */
