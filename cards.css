@@ -6,20 +6,22 @@
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
 }
-/******************************** TAG SELECTORS   */
+
 body {
   background: url(img/espaco.jpg);
   background-size: contain;
   background-position: top;
 }
-img {
+
+/*********************************** CLASS SELECTORS   */
+
+.imagem-header {
   width: 100%;
   height: 100%;
 }
-select {
+.filtros {
   display: flex;
 }
-/*********************************** CLASS SELECTORS   */
 
 /* BOTÃO LIMPAR CAMPO BUSCA */
 
@@ -109,7 +111,7 @@ select {
   color: #00ff88;
   width: 80%;
   text-align: center;
-  font-size: 30px;
+  font-size: 3vh;
 }
 
 /* DIV GERAL QUE CONTÉM OS CARDS PRINTADOS NA TELA POR MEIO DO MAIN.JS */
@@ -234,8 +236,8 @@ select {
   width: 6vw;
   text-align: center;
 }
-span,
-a {
+.name,
+.nameStyle {
   color: #00ff88;
   text-decoration: none;
 }

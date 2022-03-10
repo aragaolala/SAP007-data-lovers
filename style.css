@@ -14,14 +14,14 @@ body {
   margin: 0;
 }
 
-h1 {
+.titulo {
   font-size: 1vw;
   color: white;
   text-align: center;
   cursor: default;
 }
 /* animação no mome rick and morty */
-h2 {
+.subTitulo {
   color: #484848;
   font-size: 3vw;
   font-weight: bold;
@@ -44,7 +44,7 @@ h2:hover span {
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
 
-p {
+.paragrafo {
   font-size: 2vw;
   color: white;
   text-align: left;
@@ -125,8 +125,8 @@ p {
   text-align: center;
 }
 
-span,
-a {
+.name,
+.nameStyle {
   color: #00ff88;
   text-decoration: none;
 }
