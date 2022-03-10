@@ -106,9 +106,10 @@ select {
   margin: auto;
   margin-top: 40px;
   margin-bottom: 40px;
-  color: white;
+  color: #00ff88;
   width: 80%;
   text-align: center;
+  font-size: 30px;
 }
 
 /* DIV GERAL QUE CONTÉM OS CARDS PRINTADOS NA TELA POR MEIO DO MAIN.JS */
