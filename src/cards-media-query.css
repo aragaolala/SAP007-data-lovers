@@ -178,6 +178,9 @@
     width: 17vw;
     height: 19vw;
   }
+  .calculo {
+    font-size: 2vh;
+  }
 }
 /* AJUSTES PARA TELAS PEQUENAS */
 @media screen and (max-width: 450px) {
