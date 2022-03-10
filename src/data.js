@@ -35,7 +35,7 @@ export const orderAlfaFilter = (data, order) => {
 
 export const searchName = (data, condition) => {
   const result = data.filter((character) =>
-  character.name.toLowerCase().includes(condition.toLowerCase())
+    character.name.toLowerCase().includes(condition.toLowerCase())
   );
   return result;
 };
@@ -48,3 +48,16 @@ export const filterData = (data, typeOfData, condition,  ) => {
 }
 
 */
+
+// export function orderAlfaFilter(character) {
+//   character.sort((a , b) => {
+
+//     if (a.name < b.name){
+//       return -1;
+//     }
+//     if (a.name > b.name){
+//       return 1;
+//     }
+//   })
+//   return character;
+// }
