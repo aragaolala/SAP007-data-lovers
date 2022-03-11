@@ -1,41 +1,63 @@
-export const filtroGenero = (dados, condition) => {
-  const resultadoGenero = dados.filter(
+export const genderFilter = (data, condition) => {
+  const genderResult = data.filter(
     (character) => character.gender === condition
   );
 
-  return resultadoGenero;
+  return genderResult;
 };
 
-export const calcularPorcentagem = (total, fractionItem) => {
-  const porcentagem = Math.round((fractionItem * 100) / total);
-  return porcentagem;
+export const percentCalc = (total, fractionItem) => {
+  const percentage = Math.round((fractionItem * 100) / total);
+  return percentage;
 };
 
-export const statusFilter = (dados, condition) => {
-  const statusResult = dados.filter(
+export const statusFilter = (data, condition) => {
+  const statusResult = data.filter(
     (character) => character.status === condition
   );
   return statusResult;
 };
 
-export const speciesFilter = (dados, condition) => {
-  const speciesResult = dados.filter(
+export const speciesFilter = (data, condition) => {
+  const speciesResult = data.filter(
     (character) => character.species === condition
   );
   return speciesResult;
 };
 
-export const orderAlfaFilter = (dados, order) => {
+export const orderAlfaFilter = (data, order) => {
   if (order === "a-z") {
-    return dados.sort((a, z) => (a.name > z.name ? 1 : -1));
+    return data.sort((a, z) => (a.name > z.name ? 1 : -1));
   } else {
-    return dados.sort((a, z) => (a.name > z.name ? -1 : 1));
+    return data.sort((a, z) => (a.name > z.name ? -1 : 1));
   }
 };
 
-export const searchName = (dados, condition) => {
-  const resultado = dados.filter((personagem) =>
-    personagem.name.toLowerCase().includes(condition.toLowerCase())
+export const searchName = (data, condition) => {
+  const result = data.filter((character) =>
+    character.name.toLowerCase().includes(condition.toLowerCase())
   );
-  return resultado;
+  return result;
 };
+
+/* 
+// Tentando colocar gender, status e species numa única constante
+export const filterData = (data, typeOfData, condition,  ) => {
+  const dataResult = data.filter ((character) => character[typeOfData] === condition);
+  return dataResult;
+}
+
+*/
+//Tentando mudar a função do orderAlfaFilter
+// export function orderAlfaFilter(character) {
+//   character.sort((a , b) => {
+
+//     if (a.name < b.name){
+//       return -1;
+//     }
+//     if (a.name > b.name){
+//       return 1;
+//     }
+//   })
+//   return character;
+// }

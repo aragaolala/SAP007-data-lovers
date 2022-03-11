@@ -1,16 +1,16 @@
 import {
-  filtroGenero,
+  genderFilter,
   statusFilter,
   speciesFilter,
   orderAlfaFilter,
-  calcularPorcentagem,
+  percentCalc,
   searchName,
 } from "./data.js";
 
-import dados from "./data/rickandmorty/rickandmorty.js";
+import data from "./data/rickandmorty/rickandmorty.js";
 
-function printarCards(dados) {
-  document.getElementById("container-dos-cards").innerHTML = dados
+function showCards(data) {
+  document.getElementById("container-dos-cards").innerHTML = data
     .map(
       (item) => ` 
       <div class="card-info">
@@ -30,7 +30,7 @@ function printarCards(dados) {
     .join("");
 }
 
-printarCards(dados.results);
+showCards(data.results);
 
 ///// PEGANDO OS SELETORES
 const selecaoGenero = document.getElementById("gender-filter");
@@ -38,54 +38,67 @@ const statusSelect = document.getElementById("status-filter");
 const speciesSelect = document.getElementById("species-filter");
 const orderSelectAz = document.getElementById("alfa-order-filter");
 const texto = document.getElementById("porcentagem-filtro");
-const buscaNomePersonagem = document.getElementById("text-search");
+const searchCharacterName = document.getElementById("text-search");
 
-function mostrarPorcentagem(dados) {
-  texto.innerHTML = `Essa categoria representa ${dados}`;
+function showPercentage(data) {
+  texto.innerHTML = `Essa categoria representa ${data}`;
 }
 
-function imprimirFiltroGenero(e) {
-  const resultadoGenero = filtroGenero(dados.results, e.target.value);
+function printGenderFilter(e) {
+  const genderResult = genderFilter(data.results, e.target.value);
 
-  const porcentagemText = `${calcularPorcentagem(
-    dados.results.length,
-    resultadoGenero.length
+  const percentageText = `${percentCalc(
+    data.results.length,
+    genderResult.length
   )}% dos personagens`;
-  mostrarPorcentagem(porcentagemText);
-  return printarCards(resultadoGenero);
+  showPercentage(percentageText);
+  return showCards(genderResult);
 }
-selecaoGenero.addEventListener("change", imprimirFiltroGenero);
+selecaoGenero.addEventListener("change", printGenderFilter);
 
 function printStatusFilter(e) {
-  const statusResult = statusFilter(dados.results, e.target.value);
-  const porcentagemText = `${calcularPorcentagem(
-    dados.results.length,
+  const statusResult = statusFilter(data.results, e.target.value);
+  const percentageText = `${percentCalc(
+    data.results.length,
     statusResult.length
   )}% dos personagens`;
-  mostrarPorcentagem(porcentagemText);
-  return printarCards(statusResult);
+  showPercentage(percentageText);
+  return showCards(statusResult);
 }
 statusSelect.addEventListener("change", printStatusFilter);
 
 function printSpeciesFilter(e) {
-  const speciesResult = speciesFilter(dados.results, e.target.value);
-  const porcentagemText = `${calcularPorcentagem(
-    dados.results.length,
+  const speciesResult = speciesFilter(data.results, e.target.value);
+  const percentageText = `${percentCalc(
+    data.results.length,
     speciesResult.length
   )}% dos personagens`;
-  mostrarPorcentagem(porcentagemText);
-  return printarCards(speciesResult);
+  showPercentage(percentageText);
+  return showCards(speciesResult);
 }
 speciesSelect.addEventListener("change", printSpeciesFilter);
 
 function printOrderFilterAz(e) {
-  const order = orderAlfaFilter(dados.results, e.target.value);
-  return printarCards(order);
+  const order = orderAlfaFilter(data.results, e.target.value);
+  return showCards(order);
 }
 orderSelectAz.addEventListener("change", printOrderFilterAz);
 
-function buscarNomePersonagens(e) {
-  const nomePersonagens = searchName(dados.results, e.target.value);
-  return printarCards(nomePersonagens);
+function searchCharacterNames(e) {
+  const charactersName = searchName(data.results, e.target.value);
+  return showCards(charactersName);
 }
-buscaNomePersonagem.addEventListener("keyup", buscarNomePersonagens);
+searchCharacterName.addEventListener("keyup", searchCharacterNames);
+
+/*
+
+// Tentando colocar gender, status e species numa única função
+function printSelectorsResult(e) {
+  const filterResult = dataResult(
+    data.results,
+    document.getElementsByClassName("filtros"), //o filtro de A_Z tb tem esse nome
+    e.target.value
+  );
+  return showCards(filterResult);
+}
+*/
