@@ -48,7 +48,7 @@ export const filterData = (data, typeOfData, condition,  ) => {
 }
 
 */
-
+//Tentando mudar a função do orderAlfaFilter
 // export function orderAlfaFilter(character) {
 //   character.sort((a , b) => {
 
