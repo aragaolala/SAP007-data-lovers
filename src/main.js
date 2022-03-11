@@ -68,6 +68,7 @@ function printStatusFilter(e) {
 statusSelect.addEventListener("change", printStatusFilter);
 
 function printSpeciesFilter(e) {
+  //console.log(e.target.name)
   const speciesResult = speciesFilter(data.results, e.target.value);
   const percentageText = `${percentCalc(
     data.results.length,

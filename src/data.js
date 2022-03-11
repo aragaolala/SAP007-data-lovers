@@ -26,10 +26,11 @@ export const speciesFilter = (data, condition) => {
 };
 
 export const orderAlfaFilter = (data, order) => {
+  const newArray =[...data]
   if (order === "a-z") {
-    return data.sort((a, z) => (a.name > z.name ? 1 : -1));
+    return newArray.sort((a, z) => (a.name > z.name ? 1 : -1));
   } else {
-    return data.sort((a, z) => (a.name > z.name ? -1 : 1));
+    return newArray.sort((a, z) => (a.name > z.name ? -1 : 1));
   }
 };
 
@@ -42,22 +43,11 @@ export const searchName = (data, condition) => {
 
 /* 
 // Tentando colocar gender, status e species numa única constante
+
 export const filterData = (data, typeOfData, condition,  ) => {
   const dataResult = data.filter ((character) => character[typeOfData] === condition);
   return dataResult;
 }
 
 */
-//Tentando mudar a função do orderAlfaFilter
-// export function orderAlfaFilter(character) {
-//   character.sort((a , b) => {
 
-//     if (a.name < b.name){
-//       return -1;
-//     }
-//     if (a.name > b.name){
-//       return 1;
-//     }
-//   })
-//   return character;
-// }
