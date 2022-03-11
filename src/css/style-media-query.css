@@ -7,7 +7,7 @@
     font-size: 2.4vw;
   }
   body {
-    background: url(img/espaco8.jpg);
+    background: url(/src/img/espaco8.jpg);
     background-repeat: no-repeat;
   }
 
@@ -60,7 +60,7 @@
   }
 
   body {
-    background: url(img/espaco4.png);
+    background: url(/src/img/espaco4.png);
     background-repeat: no-repeat;
   }
   .gif {
