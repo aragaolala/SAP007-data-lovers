@@ -97,7 +97,7 @@ Uitlizamos o site coolors.com para sua criação.
 
 Os testes unitários foram desenvolvidos para fazer com que o projeto rode adequadamente, nele você consegue verificar se cada função está dando o retorno esperado.
 
-<img alt="Paleta de cores" src="img-readme/testes-data.png" width="400px">
+<img alt="Teste" src="img-readme/testes-data.png" width="400px">
 
 ---
 
