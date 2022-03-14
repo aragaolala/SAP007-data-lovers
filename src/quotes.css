@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+
 body {
     background: url('img/espaco8.jpg');
     background-size: cover;
@@ -34,6 +36,8 @@ body {
 }
 .text{
     padding: 0 20px 20px;
+    font-family: "Play", sans-serif;
+    letter-spacing: 2px;
 }
 @media (max-width: 768px) {
     .grid {
