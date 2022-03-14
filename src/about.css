@@ -7,6 +7,10 @@
   box-sizing: border-box;
   background-color: #191919;
 }
+.container {
+    justify-content: space-evenly;
+    display: flex;
+}
 .about {
     width: 100%; 
     padding: 78px 0px 78px;
@@ -18,16 +22,14 @@
     padding-bottom: 32px;
 }
 .about-text {
-    width: 420px;
+    width: 315px;
 }
 .main, .main-dai {
-    width: 480px;
-    max-width: 95%;
-    margin-left: 40px;
+    
+    
     
     display: inline-block;
-    align-items: center;
-    justify-content: space-evenly;
+   
 }
 .main-dai {
     margin-left: 0;
