@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
 @import url(style-body.css);
 @import url(name-devs.css);
+@import url(style-menu.css);
 /* Reset */
 * {
   box-sizing: border-box;
@@ -42,6 +43,9 @@ h2:hover span {
   color: #8bfac6;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
+.names {
+  color: #00ff88;
+}
 
 .paragrafo {
   font-size: 2vw;
@@ -56,7 +60,7 @@ h2:hover span {
   width: 90%;
   height: 40%;
   margin-left: 30px;
-  margin-top: 12vw;
+  margin-top: 10vw;
   margin-bottom: 8vh;
   display: flex;
   padding-left: 5%;
