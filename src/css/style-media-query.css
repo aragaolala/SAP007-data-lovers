@@ -1,13 +1,13 @@
 /* MEDIA TELAS GRANDES */
 @media (min-width: 769px) and (max-width: 2000px) {
-  h1 {
+  .titulo {
     font-size: 1.5vw;
   }
-  p {
+  .paragrafo {
     font-size: 2.4vw;
   }
   body {
-    background: url(img/espaco8.jpg);
+    background: url(/src/img/espaco8.jpg);
     background-repeat: no-repeat;
   }
 
@@ -31,7 +31,7 @@
   .button {
     width: 200px;
   }
-  p {
+  .paragrafo {
     width: 100%;
   }
 
@@ -48,19 +48,19 @@
 
 /* MEDIA CELULAR & TABLET */
 @media screen and (max-width: 768px) {
-  h1 {
+  .titulo {
     font-size: 0.8rem;
   }
-  h2 {
+  .subTitulo {
     font-size: 5vw;
   }
-  p {
+  .paragrafo {
     font-size: 4.2vw;
     width: 100%;
   }
 
   body {
-    background: url(img/espaco4.png);
+    background: url(/src/img/espaco4.png);
     background-repeat: no-repeat;
   }
   .gif {

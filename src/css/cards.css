@@ -1,16 +1,13 @@
 /* FONTES GOOGLE */
 @import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+@import url(style-body.css);
+@import url(name-devs.css);
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
-}
-
-body {
-  background: url(img/espaco.jpg);
-  background-size: contain;
-  background-position: top;
 }
 
 /*********************************** CLASS SELECTORS   */
@@ -209,35 +206,4 @@ body {
   bottom: 0px;
   right: 0px;
   opacity: 0.8;
-}
-
-/* DIV COM NOMES DAS DEVELOPERS */
-.banner {
-  justify-content: center;
-  display: inline-block;
-  text-align: center;
-  backdrop-filter: blur(5px);
-  margin-top: 12vw;
-  width: 100%;
-  padding-bottom: 3vw;
-  height: 100%;
-}
-.nomes-devs {
-  margin-top: 5vw;
-  margin-bottom: 3vw;
-  color: rgba(245, 245, 245, 0.564);
-  font-family: "Play", sans-serif;
-  letter-spacing: 1px;
-  font-size: 2vw;
-}
-.imagem-contato {
-  display: inline-block;
-  border-radius: 100px;
-  width: 6vw;
-  text-align: center;
-}
-.name,
-.nameStyle {
-  color: #00ff88;
-  text-decoration: none;
 }

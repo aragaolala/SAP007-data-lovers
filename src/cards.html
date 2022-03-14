@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="cards.css" />
-    <link rel="stylesheet" href="cards-media-query.css" />
+    <link rel="stylesheet" href="css/cards.css" />
+    <link rel="stylesheet" href="css/cards-media-query.css" />
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
     <title>Portal</title>
   </head>
   <body>
@@ -25,34 +26,20 @@
     </header>
 
     <nav class="nav-filtros">
-      <select
-        name="gen-stat-spec"
-        title="filtros-genero"
-        class="filtros"
-        id="gender-filter"
-      >
+
+      <select title="filtros-genero" class="filtros" id="gender-filter">
         <option value="" selected hidden>Gênero</option>
         <option value="Male">Masculino</option>
         <option value="Female">Feminino</option>
         <option value="unknown">Desconhecido</option>
       </select>
-      <select
-        name="gen-stat-spec"
-        title="filtros-stat"
-        class="filtros"
-        id="status-filter"
-      >
+      <select  title="filtros-stat" class="filtros" id="status-filter">
         <option value="" selected hidden>Status</option>
         <option value="Alive">Vivo</option>
         <option value="Dead">Morto</option>
         <option value="unknown">Desconhecido</option>
       </select>
-      <select
-        name="gen-stat-spec"
-        title="filtros-espec"
-        class="filtros"
-        id="species-filter"
-      >
+      <select  title="filtros-espec" class="filtros" id="species-filter">
         <option value="" selected hidden>Espécie</option>
         <option value="Alien">Alien</option>
         <option value="Animal">Animal</option>

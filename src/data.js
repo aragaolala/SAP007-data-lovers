@@ -28,24 +28,36 @@ export const speciesFilter = (data, condition) => {
 };
 
 export const orderAlfaFilter = (data, order) => {
+  const newArray =[...data]
   if (order === "a-z") {
-    return data.sort((a, z) => (a.name > z.name ? 1 : -1));
+    return newArray.sort((a, z) => (a.name > z.name ? 1 : -1));
   } else {
-    return data.sort((a, z) => (a.name > z.name ? -1 : 1));
+    return newArray.sort((a, z) => (a.name > z.name ? -1 : 1));
   }
 };
 
 export const searchName = (data, condition) => {
   const result = data.filter((character) =>
-  character.name.toLowerCase().includes(condition.toLowerCase())
+    character.name.toLowerCase().includes(condition.toLowerCase())
   );
   return result;
 };
 
 
 /* 
+<<<<<<< HEAD
+=======
+// Tentando colocar gender, status e species numa única constante
+
+>>>>>>> dfb40eb97ffd344e7162b81e01b7cbb12390e127
 export const filterData = (data, typeOfData, condition,  ) => {
   const dataResult = data.filter ((character) => character[typeOfData] === condition);
   return dataResult;
 }
+<<<<<<< HEAD
 */
+=======
+
+*/
+
+>>>>>>> dfb40eb97ffd344e7162b81e01b7cbb12390e127

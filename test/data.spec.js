@@ -87,8 +87,8 @@ describe("speciesFilter", () => {
 });
 
 const Names = [
-  { name: "Bearded Lady" },
   { name: "Rick Sanchez" },
+  { name: "Bearded Lady" },
   { name: "Morty Smith" },
   { name: "Boobloosian" },
 ];
