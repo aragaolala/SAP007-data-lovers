@@ -13,16 +13,16 @@
 }
 .about img {
     height: auto;
-    width: 320px;
+    width: 250px;
 }
 .about-text {
-    width: 550px;
+    width: 320px;
 }
 .main {
-    width: 1130px;
+    width: 480px;
     max-width: 95%;
-    margin: 0 auto;
-    display: flex;
+    
+    display: inline-block;
     align-items: center;
     justify-content: space-evenly;
 }
