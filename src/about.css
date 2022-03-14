@@ -35,11 +35,21 @@
     margin-left: 0;
 }
 .about h1 {
-    color: white;
+    color: rgb(237, 237, 237);
     font-size: 50px;
     text-align: center;
     padding-top: 80px;
     padding-bottom: 80px;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+.about h1:hover {
+    color: #8bfac6;
+    letter-spacing: 7px;
+    transition: 0.5s linear;
+    color: #8bfac6;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+    
 }
 .about-text h3 {
     color: white;
