@@ -44,20 +44,4 @@ export const searchName = (data, condition) => {
 };
 
 
-/* 
-<<<<<<< HEAD
-=======
-// Tentando colocar gender, status e species numa única constante
 
->>>>>>> dfb40eb97ffd344e7162b81e01b7cbb12390e127
-export const filterData = (data, typeOfData, condition,  ) => {
-  const dataResult = data.filter ((character) => character[typeOfData] === condition);
-  return dataResult;
-}
-<<<<<<< HEAD
-*/
-=======
-
-*/
-
->>>>>>> dfb40eb97ffd344e7162b81e01b7cbb12390e127
