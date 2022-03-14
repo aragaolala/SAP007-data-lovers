@@ -18,13 +18,17 @@
 .about-text {
     width: 320px;
 }
-.main {
+.main, .main-dai {
     width: 480px;
     max-width: 95%;
+    margin-left: 40px;
     
     display: inline-block;
     align-items: center;
     justify-content: space-evenly;
+}
+.main-dai {
+    margin-left: 0;
 }
 .about-text h1 {
     color: white;
