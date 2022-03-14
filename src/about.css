@@ -10,7 +10,7 @@
 .container {
   justify-content: space-evenly;
   display: flex;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 .about {
   width: 100%;
