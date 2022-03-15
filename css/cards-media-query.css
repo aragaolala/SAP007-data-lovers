@@ -59,7 +59,7 @@
 /* MEDIA TABLET */
 @media (min-width: 601px) and (max-width: 1000px) {
   body {
-    background: url(/src/img/espaco4.png);
+    background: url(../img/espaco4.png);
   }
   .buscar-e-limpar {
     display: flex;
@@ -103,7 +103,7 @@
     width: 260px;
   }
   body {
-    background: url(/src/img/espaco4.png);
+    background: url(../img/espaco4.png);
   }
   header {
     align-content: center;
