@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+
+body {
+  background: url("/src/img/espaco8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid {
+  margin: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  align-items: center;
+}
+
+.grid > article {
+  background: #eee5e9;
+  border: none;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+
+  width: 250px;
+  transition: transform 0.3s;
+}
+.grid > article:hover {
+  transform: translateY(5px);
+  box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
+}
+.grid > article img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.text {
+  padding: 0 20px 20px;
+  font-family: "Play", sans-serif;
+  letter-spacing: 1px;
+}
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid > article {
+    text-align: center;
+  }
+}

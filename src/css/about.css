@@ -10,7 +10,7 @@
 .container {
   justify-content: space-evenly;
   display: flex;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 .about {
   width: 100%;
@@ -27,6 +27,7 @@
 .main,
 .main-dai {
   display: inline-block;
+  b;
 }
 .main-dai {
   margin-left: 0;
@@ -35,7 +36,6 @@
   color: rgb(237, 237, 237);
   font-size: 50px;
   text-align: center;
-  padding-top: 80px;
   cursor: pointer;
   letter-spacing: 3px;
 }
@@ -53,14 +53,14 @@
   margin-bottom: 20px;
 }
 .about-text h5 {
-  color: white;
+  color: rgb(162, 158, 158);
   font-size: 20px;
   text-transform: capitalize;
   letter-spacing: 2px;
   margin-bottom: 20px;
 }
 span {
-  color: #f9004d;
+  color: #8bfac6;
 }
 .about-text p {
   color: #fcfc;
@@ -69,18 +69,19 @@ span {
   font-size: 18px;
   margin-bottom: 45px;
 }
-button {
-  background: #f9004d;
+.button {
+  
+  background: transparent;
   color: white;
   text-decoration: none;
-  border: 2px solid transparent;
+  border: 2px solid #8bfac6;
   font-weight: bold;
   padding: 13px 30px;
   border-radius: 30px;
   transition: 0.4s;
 }
-button:hover {
-  background: transparent;
-  border: 2px solid #f9004d;
+.button:hover {
+  background: #8bfac6;
+  color: black;
   cursor: pointer;
 }
