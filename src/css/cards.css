@@ -2,12 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
 @import url(style-body.css);
 @import url(name-devs.css);
+@import url(style-menu.css);
 /* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: "Play", sans-serif;
+}
+
+/* Style dos buttons menu*/
+.button-menu {
+  justify-content: center;
 }
 
 /*********************************** CLASS SELECTORS   */

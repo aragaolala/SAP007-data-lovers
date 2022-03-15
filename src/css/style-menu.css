@@ -1,0 +1,20 @@
+/* Style dos buttons menu*/
+.button-menu {
+  display: flex;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.pag {
+  text-decoration: none;
+  color: rgba(128, 0, 128, 0.973);
+  padding: 1rem 3rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 8px;
+  font-size: 2vw;
+  letter-spacing: 1px;
+  padding-left: 5%;
+}
