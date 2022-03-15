@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+@import url(style-menu.css);
 
 body {
   background: url("/src/img/espaco8.jpg");
