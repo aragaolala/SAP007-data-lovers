@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+@import url(style-menu.css);
 
 * {
   padding: 0;
@@ -6,6 +7,9 @@
   font-family: "Play", sans-serif;
   box-sizing: border-box;
   background-color: #191919;
+}
+.button-menu {
+  justify-content: center;
 }
 .container {
   justify-content: space-evenly;
