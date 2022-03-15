@@ -1,19 +1,17 @@
 /* MEDIA CELULAR & TABLET */
 @media screen and (max-width: 768px) {
-    .container {
-        display: block;
-    }
-    .main, .main-dai {
-        display: block;
-        margin-left: 20px;
-    }
-    .about img {
-        width: 200px;
-    }
-    .about-text {
-        width: 260px;
-    }
-    .buttom-menu {
-        
-    }
+  .container {
+    display: block;
+  }
+  .main,
+  .main-dai {
+    display: block;
+    margin-left: 20px;
+  }
+  .about img {
+    width: 200px;
+  }
+  .about-text {
+    width: 260px;
+  }
 }
