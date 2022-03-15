@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
 
 body {
-  background: url("img/espaco8.jpg");
+  background: url("/src/img/espaco8.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 .grid {
-  margin: 50px;
+  margin: 80px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
