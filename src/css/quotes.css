@@ -2,7 +2,7 @@
 @import url(style-menu.css);
 
 body {
-  background: url("/src/img/espaco8.jpg");
+  background: url("../img/espaco8.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -48,5 +48,4 @@ body {
     justify-items: center;
     margin: 0;
   }
-  
 }
