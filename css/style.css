@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+@import url(style-body.css);
+@import url(name-devs.css);
+@import url(style-menu.css);
 /* Reset */
 * {
   box-sizing: border-box;
@@ -8,9 +11,6 @@
 
 /* Cor da pag */
 body {
-  background: url(img/espaco.jpg);
-  background-size: contain;
-  background-position: top;
   margin: 0;
 }
 
@@ -43,6 +43,9 @@ h2:hover span {
   color: #8bfac6;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
+.names {
+  color: #00ff88;
+}
 
 .paragrafo {
   font-size: 2vw;
@@ -57,7 +60,7 @@ h2:hover span {
   width: 90%;
   height: 40%;
   margin-left: 30px;
-  margin-top: 12vw;
+  margin-top: 10vw;
   margin-bottom: 8vh;
   display: flex;
   padding-left: 5%;
@@ -97,36 +100,4 @@ h2:hover span {
 .button:hover {
   background: #8bfac6;
   text-shadow: none;
-}
-
-/* DIV COM NOMES DAS DEVELOPERS */
-.banner {
-  justify-content: center;
-  display: inline-block;
-  backdrop-filter: blur(5px);
-  text-align: center;
-  margin-top: 12vw;
-  width: 100%;
-  padding-bottom: 3vw;
-  height: 100%;
-}
-.nomes-devs {
-  margin-top: 5vw;
-  margin-bottom: 3vw;
-  color: rgba(245, 245, 245, 0.564);
-  font-family: "Play", sans-serif;
-  letter-spacing: 1px;
-  font-size: 4vw;
-}
-.imagem-contato {
-  display: inline-block;
-  border-radius: 100px;
-  width: 6vw;
-  text-align: center;
-}
-
-.name,
-.nameStyle {
-  color: #00ff88;
-  text-decoration: none;
 }

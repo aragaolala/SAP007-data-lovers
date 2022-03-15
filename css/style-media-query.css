@@ -7,7 +7,7 @@
     font-size: 2.4vw;
   }
   body {
-    background: url(img/espaco8.jpg);
+    background: url(/src/img/espaco8.jpg);
     background-repeat: no-repeat;
   }
 
@@ -22,7 +22,7 @@
     height: 35vw;
     width: 47vw;
     margin-bottom: 18vw;
-    margin-top: 23vw;
+    margin-top: 18vw;
     margin-left: 5vw;
   }
   .div-do-gif {
@@ -48,6 +48,13 @@
 
 /* MEDIA CELULAR & TABLET */
 @media screen and (max-width: 768px) {
+  .pag {
+    color: #06bce1e3;
+    font-size: 20px;
+  }
+  .button-menu {
+    margin-left: 1%;
+  }
   .titulo {
     font-size: 0.8rem;
   }
@@ -60,7 +67,7 @@
   }
 
   body {
-    background: url(img/espaco4.png);
+    background: url(/src/img/espaco4.png);
     background-repeat: no-repeat;
   }
   .gif {
@@ -74,7 +81,6 @@
     height: 50%;
     margin-left: 3%;
     width: 90%;
-    margin-top: 25vw;
     margin-bottom: 12vw;
   }
   .div-do-gif {

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+@import url("style-menu.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Play", sans-serif;
+  box-sizing: border-box;
+  background-color: #191919;
+}
+.button-menu {
+  justify-content: center;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.container {
+  justify-content: space-evenly;
+  display: flex;
+  padding-top: 80px;
+}
+.about {
+  width: 100%;
+  padding: 78px 0px 78px;
+}
+.about img {
+  height: auto;
+  width: 250px;
+  padding-bottom: 32px;
+}
+.about-text {
+  width: 315px;
+}
+.main,
+.main-dai {
+  display: inline-block;
+}
+.main-dai {
+  margin-left: 0;
+}
+.about h1 {
+  color: rgb(237, 237, 237);
+  font-size: 50px;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 3px;
+}
+.about h1:hover {
+  color: #8bfac6;
+  letter-spacing: 7px;
+  transition: 0.5s linear;
+  color: #8bfac6;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+.about-text h3 {
+  color: white;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5 {
+  color: rgb(162, 158, 158);
+  font-size: 20px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.dev1,
+.dev2 {
+  color: #8bfac6;
+}
+.about-text p {
+  color: #fcfc;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+.button {
+  background: transparent;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #8bfac6;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+.button:hover {
+  background: #8bfac6;
+  color: black;
+  cursor: pointer;
+}

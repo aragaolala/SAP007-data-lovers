@@ -1,0 +1,26 @@
+/* MEDIA CELULAR & TABLET */
+@media screen and (max-width: 768px) {
+  .container {
+    display: block;
+  }
+  .main,
+  .main-dai {
+    display: block;
+    margin-left: 20px;
+  }
+  .main-dai {
+    margin-top: 75px;
+  }
+  .about {
+    padding-top: 25px;
+  }
+  .about img {
+    width: 200px;
+  }
+  .about-text {
+    width: 260px;
+  }
+  .button-menu {
+    font-size: 10vw;
+  }
+}
