@@ -25,6 +25,11 @@ Para fornecer tal experiência, utilizamos o consumo e manipulação da API rick
 ![Boas Vindas](https://media.giphy.com/media/AkHxaxefQOsCH0Qq2j/giphy.gif)
 ![Pagina boas vindas](https://media.giphy.com/media/Qtacv6vkkiUE4udtEG/giphy.gif)
 
+### Acesso ao site
+
+Clique <a href="https://lalaonde.github.io/SAP007-data-lovers/" target="_blank" title="Clique aqui!">aqui</a> ou escanei o QR Code a baixo.<br>
+<img alt="QRcode" src="img-readme/qrcode.png" width="200px">
+
 ---
 
 ## 2. Usuário
@@ -33,7 +38,8 @@ Ao navegar pelas redes sociais, grupos de interação e hashtags, percebemos que
 
 Para orientar a nossa ideia e construção do código, foram escritas as histórias do usuário a seguir.
 
-Para cada história do usuário utilizamos os [5. Testes unitários](#5-testes-unitários) como definição de pronto. 
+Para cada história do usuário utilizamos os [5. Testes unitários](#5-testes-unitários) como definição de pronto.
+
 ### 3. Histórias do usuário
 
 #### 3.1 O usuário quer visualizar todos os personagens.
