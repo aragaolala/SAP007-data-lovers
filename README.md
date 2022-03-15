@@ -33,6 +33,7 @@ Ao navegar pelas redes sociais, grupos de interação e hashtags, percebemos que
 
 Para orientar a nossa ideia e construção do código, foram escritas as histórias do usuário a seguir.
 
+Para cada história do usuário utilizamos os [5. Testes unitários](#5-testes-unitários) como definição de pronto. 
 ### 3. Histórias do usuário
 
 #### 3.1 O usuário quer visualizar todos os personagens.
