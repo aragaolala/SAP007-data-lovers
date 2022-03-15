@@ -14,8 +14,17 @@
   justify-content: center;
   flex-direction: column;
   margin: 8px;
-  font-size: 2vw;
+  font-size: 25px;
   letter-spacing: 1px;
   padding-left: 5%;
   font-family: "Play", sans-serif;
+}
+
+@media (max-width: 400px) {
+  .pag {
+    font-size: 16px;
+    justify-content: center;
+    justify-items: center;
+
+}
 }
