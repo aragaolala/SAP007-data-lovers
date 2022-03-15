@@ -1,5 +1,5 @@
 body {
-  background: url(/src/img/espaco.jpg);
+  background: url(../img/espaco.jpg);
   background-size: contain;
   background-position: top;
 }
